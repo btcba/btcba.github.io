@@ -3,16 +3,16 @@
 echo "1.编译文件."
 hugo
 
-echo "2.初始新增的文件.."
+echo "2.初始化新增文件.."
 
 git add .
 
-echo "3. 提交文件到本地仓库..."
+echo "3. 提交文件到本地..."
 
-git commit -m '提交文件'
+git commit -m '提交'
 
-echo "5. 推送文件到github仓库....."
+echo "5. 推送到远程仓库....."
 
 git push -u origin main
 
-echo "6. 推送成功"
+echo "6. 完成"
