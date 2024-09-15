@@ -19,6 +19,7 @@ params:
   # When not specified file structure and weights will be used
   BookMenuBundle: /menu
 
+  BookSearch: true
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu
   # BookSection: docs
@@ -37,4 +38,8 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  BookEditPath: edit/master/exampleSite/content
+  # BookEditPath: edit/master/exampleSite/content
+
+  BookComments: true
+
+  BookDateFormat: "2006-01-02"

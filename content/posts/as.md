@@ -1,6 +1,6 @@
 ---
 author: "Michael Henderson"
-date: 2024-09-12
+date: 2015-01-21
 linktitle: 2024币安没有返佣的看过来，新老用户通用
 menu:
   main:
@@ -8,8 +8,8 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  2024币安没有返佣的看过来，新老用户通用
-weight: 10
-
+weight: 1
+tags: ["币安"]
 ---
 
 
