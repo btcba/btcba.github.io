@@ -1,6 +1,6 @@
 theme: E25DX
 
-enableGitInfo: true
+enableGitInfo: false
 
 defaultContentLanguage: en
 
@@ -40,7 +40,7 @@ params:
       dark: '#101010'
 
   author:
-    name: Name
+    name: btcba
     url: https://github.com/repo
 
   home:
