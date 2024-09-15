@@ -1,18 +1,18 @@
 @echo off
 
-echo "1.编译文件."
+echo "1.�����ļ�."
 hugo
 
-echo "2.初始化新增文件.."
+echo "2.��ʼ�������ļ�.."
 
 git add .
 
-echo "3. 提交文件到本地..."
+echo "3. �ύ�ļ�������..."
 
-git commit -m '提交'
+git commit -m '�ύ'
 
-echo "5. 推送到远程仓库....."
+echo "5. ���͵�Զ�ֿ̲�....."
 
 git push -u origin main
 
-echo "6. 完成"
+echo "6. ���"
