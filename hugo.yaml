@@ -1,50 +1,40 @@
-theme: E25DX
+# hugo server --themesDir ... --baseURL=http://0.0.0.0:1313/example
 
-enableGitInfo: false
+baseURL: https://example.com/
+title: Hugo Book
+theme: hugo-book
+disableKinds: ["taxonomy", "taxonomyTerm"]
+# themesDir: ../..
 
-defaultContentLanguage: en
-
-languages:
-  en:
-    weight: 1
-    languageName: English
-    languageCode: en-US
-    contentDir: content/en
-    title: BTCBA
-    params:
-      description: BTC 注册
-
-services:
-  googleAnalytics:
-    ID: G-XXXXXXXXXX
-
-markup:
-  highlight:
-    noClasses: false
-  goldmark:
-    renderer:
-      unsafe: true
-    parser:
-      attribute:
-        block: true
-        title: true
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
 
 params:
-  project:
-    startYear: 2022
-    presentYear: 2024
-    github:
-      repo: repo
-    themeColor:
-      light: '#ffffff'
-      dark: '#101010'
+  # (Optional, default true) Show or hide table of contents globally
+  # You can also specify this parameter per page in front matter
+  BookShowToC: true
 
-  author:
-    name: btcba
-    url: https://github.com/repo
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  BookMenuBundle: /menu
 
-  home:
-    heading: Your next
-    headingSegment2: Theme
-    description: Description
-    getStartedPath: /docs
+  # (Optional, default docs) Specify section of content to render as menu
+  # You can also set value to "*" to render all sections to menu
+  # BookSection: docs
+
+  # This value is duplicate of $link-color for making active link highlight in menu bundle mode
+  # BookMenuBundleActiveLinkColor: \#004ed0
+
+  # Include JS scripts in pages. Disabled by default.
+  # - Keep side menu on same scroll position during navigation
+  BookEnableJS: true
+
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  BookRepo: https://github.com/alex-shpak/hugo-book
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Path must point to 'content' directory of repo.
+  BookEditPath: edit/master/exampleSite/content
