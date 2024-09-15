@@ -1,7 +1,7 @@
 @echo off
 
-echo "1.提交文件开始."
-
+echo "1.编译文件."
+hugo
 
 echo "2.初始新增的文件.."
 
