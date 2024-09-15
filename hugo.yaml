@@ -1,7 +1,7 @@
 # hugo server --themesDir ... --baseURL=http://0.0.0.0:1313/example
 
 baseURL: https://example.com/
-title: Hugo Book
+title: BTCBA
 theme: hugo-book
 disableKinds: ["taxonomy", "taxonomyTerm"]
 # themesDir: ../..
