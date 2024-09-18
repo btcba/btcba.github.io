@@ -42,19 +42,19 @@ weight: 11
 2.操作不熟练的推荐注册搜狐邮箱（@sohu，不是souhu），操作熟练的推荐outlook邮箱。163和QQ等邮箱不行，国内手机号也不行。
 3.打开香港ip的vpn，打开币安[注册链接](https://www.binance.com/zh-CN/join?ref=CS7MMKKE)，确认居住/居住国家/地区：
 4.中国和美国ip确定不行，香港ip确定可以，其他地区ip可以试下。没vpn的试下[快连](https://letsvpn.world/?hl=zh)，有试用。点击[https://www.binance.com/zh-CN/join?ref=CS7MMKKE](https://www.binance.com/zh-CN/join?ref=CS7MMKKE)，打开后“我接受”同意使用“ cookies”，看到选择居住地区/驻地，默认选择了“台湾”，不用改，点击“确认”。
-[图片alt](https://imgse.com/i/pAuq19P "图片title")。
+
 3、输入邮箱，设置币安的密码，点击注册：
 
 切换到“邮箱”，使用邮箱注册。如图，使用推荐码CS7MMKKE可以“看到交易享受20%优惠”。如果你没有输入推荐码，记得输入。
-[图片alt](https://imgse.com/i/pAuqYng "图片title")。
+
 4：输入收到的邮箱验证码，即可完成注册：
 
 今天，币安注册界面要求输入邮箱验证码，验证码在您的邮箱里。
-[图片alt](https://imgse.com/i/pAuq31f "图片title")。
+
 5：顺利完成注册：
 
 邮箱验证完成后，即可完成注册。
-[图片alt](https://imgse.com/i/pAuq8c8 "图片title")。
+
 币安注册后的使用教程
 1、下载币安app：
 
@@ -77,7 +77,7 @@ weight: 11
 原理是币安给你一个16位钥匙，你把它输入到验证器里创建一个验证码序列，它每分钟会生成一个6位数字，你把它输入到币安app里就完成了匹配的绑定定。
 
 如果提示“ 2FA错误”，是因为您现在的验证器使用的16位密钥，不是币安最新的16位密钥。完整重新走一下流程就可以解决。
-<img src="https://imgse.com/i/pAuqGjS" alt="图片alt" title="图片title">
+
 币安绑定谷歌/币安验证器
 
 4、开始买币/交易：
