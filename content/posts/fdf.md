@@ -8,7 +8,7 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  币安app中文 下载：美区apple id的币安无法设置中文，解决方法
-weight: 10
+weight: 4
 ---
 
 

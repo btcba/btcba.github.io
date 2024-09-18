@@ -1,6 +1,6 @@
 ---
 author: "BTCBA"
-date: 2024-09-14
+date: 2024-09-15
 linktitle: 2024欧易（OKX）注册教程
 menu:
   main:
@@ -8,7 +8,7 @@ menu:
 next: /posts/ba
 prev: /posts/okx2024
 title: 2024欧易（OKX）注册教程
-weight: 2
+weight: 7
 tags: ["欧易"]
 
 ---

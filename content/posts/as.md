@@ -8,7 +8,7 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  2024币安没有返佣的看过来，新老用户通用
-weight: 1
+weight: 2
 tags: ["币安"]
 ---
 

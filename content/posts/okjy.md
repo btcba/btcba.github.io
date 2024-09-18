@@ -8,7 +8,7 @@ menu:
 next: /posts/ba
 prev: /posts/okx2024
 title:  OKX 交易所使用教程：如何买卖比特币及其他数字货币
-weight: 10
+weight: 5
 tags: ["欧易","比特币"]
 
 ---

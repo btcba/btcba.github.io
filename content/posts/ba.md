@@ -8,7 +8,7 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  如何通过币安注册进行加密货币交易
-weight: 10
+weight: 3
 ---
 
 
