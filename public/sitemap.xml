@@ -20,6 +20,9 @@
     <loc>https://example.com/posts/ba/</loc>
     <lastmod>2024-09-15T17:02:30+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/posts/bian1/</loc>
+    <lastmod>2024-09-18T19:32:56+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
     <lastmod>2024-09-18T19:29:07+08:00</lastmod>
   </url><url>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://example.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
     <lastmod>2024-09-15T19:53:35+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/posts/bian1/</loc>
-    <lastmod>2024-09-18T19:32:13+08:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
     <lastmod>2024-09-15T16:43:06+08:00</lastmod>
