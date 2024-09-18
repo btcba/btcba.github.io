@@ -8,7 +8,7 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  （2024最新）中国大陆币用户安币安注册教程
-weight: 12
+weight: 1
 ---
 
 币安注册链接：[https://www.binance.com/zh-CN/join?ref=CS7MMKKE](https://www.binance.com/zh-CN/join?ref=CS7MMKKE)，应用程序注册时输入推荐码CS7MMKKE也可以。
