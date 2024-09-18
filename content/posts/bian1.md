@@ -1,5 +1,5 @@
 author: "Michael Henderson"
-date: 2024-09-18
+date: 2024-09-12
 linktitle: （2024最新）中国大陆币用户安币安注册教程
 menu:
   main:
@@ -7,7 +7,7 @@ menu:
 next: /posts/okjy
 prev: /posts/ok2024
 title:  （2024最新）中国大陆币用户安币安注册教程
-weight: 11
+weight: 10
 ---
 
 币安注册链接：[https://www.binance.com/zh-CN/join?ref=CS7MMKKE](https://www.binance.com/zh-CN/join?ref=CS7MMKKE)，应用程序注册时输入推荐码CS7MMKKE也可以。
