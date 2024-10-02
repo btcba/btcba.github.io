@@ -9,7 +9,9 @@ disableKinds: ["taxonomy", "taxonomyTerm"]
 # Book configuration
 disablePathToLower: true
 enableGitInfo: true
-
+services:
+  googleAnalytics:
+    ID: G-076TDWEBMQ
 params:
   # (Optional, default true) Show or hide table of contents globally
   # You can also specify this parameter per page in front matter
