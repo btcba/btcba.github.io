@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/posts/20241023/</loc>
+    <loc>https://example.com/posts/2024102301/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/20241023/</loc>
+    <lastmod>2024-10-23T20:31:35+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/2024102101/</loc>
     <lastmod>2024-10-21T18:48:25+08:00</lastmod>
@@ -77,11 +80,14 @@
     <loc>https://example.com/posts/tt/</loc>
     <lastmod>2024-09-18T21:45:47+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
+    <loc>https://example.com/tags/bybit/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
+    <lastmod>2024-10-23T20:31:35+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/%E6%AC%A7%E6%98%93/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-23T20:31:35+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
     <lastmod>2024-10-21T19:08:42+08:00</lastmod>
