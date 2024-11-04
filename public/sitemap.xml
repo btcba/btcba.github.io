@@ -5,6 +5,9 @@
     <loc>https://example.com/posts/2024110401/</loc>
     <lastmod>2024-11-04T11:43:18+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/posts/2024110402/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/posts/20241104/</loc>
     <lastmod>2024-11-04T11:15:29+08:00</lastmod>
   </url><url>
@@ -95,14 +98,14 @@
     <loc>https://example.com/posts/tt/</loc>
     <lastmod>2024-09-18T21:45:47+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/%E6%AC%A7%E6%98%93/</loc>
     <lastmod>2024-11-04T11:43:18+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/bybit/</loc>
     <lastmod>2024-11-03T23:00:35+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
-    <lastmod>2024-11-02T22:25:21+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</loc>
     <lastmod>2024-10-21T19:08:42+08:00</lastmod>
