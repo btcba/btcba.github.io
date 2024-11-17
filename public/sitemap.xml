@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/posts/20241117/</loc>
+    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/posts/2024111501/</loc>
-    <lastmod>2024-11-15T15:33:41+08:00</lastmod>
+    <lastmod>2024-11-15T15:45:20+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/20241115/</loc>
     <lastmod>2024-11-15T14:45:53+08:00</lastmod>
@@ -122,17 +125,17 @@
     <loc>https://example.com/posts/tt/</loc>
     <lastmod>2024-09-18T21:45:47+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
+    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/DOGE/</loc>
     <lastmod>2024-11-15T14:45:53+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E6%AC%A7%E6%98%93/</loc>
-    <lastmod>2024-11-15T15:33:41+08:00</lastmod>
+    <lastmod>2024-11-15T15:45:20+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/bitget/</loc>
     <lastmod>2024-11-14T15:50:10+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
-    <lastmod>2024-11-05T16:09:21+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/gateio/</loc>
     <lastmod>2024-11-04T16:33:44+08:00</lastmod>
