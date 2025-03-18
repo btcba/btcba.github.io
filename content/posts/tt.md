@@ -26,7 +26,7 @@ tags: ["欧易"]
 
 1. 访问官网
 
-首先，打开浏览器，访问欧易交易所的官方网站：[https://okx.com/join/1912474](https://okx.com/join/1912474)。这是一个推荐链接，使用此链接注册可以获得更多的福利和优惠。
+首先，打开浏览器，访问欧易交易所的官方网站：[https://www.ouxyi.link/ul/6CngT5?channelId=1912474](https://www.ouxyi.link/ul/6CngT5?channelId=1912474)。这是一个推荐链接，使用此链接注册可以获得更多的福利和优惠。
 
 2. 点击注册
 
