@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/posts/20250320/</loc>
+    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/posts/2025031902/</loc>
     <lastmod>2025-03-19T21:54:08+08:00</lastmod>
   </url><url>
@@ -155,11 +158,11 @@
     <loc>https://example.com/posts/tt/</loc>
     <lastmod>2025-03-18T21:22:27+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
+    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/%E4%BA%A4%E6%98%93%E6%89%80/</loc>
     <lastmod>2025-03-19T22:06:15+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%E5%B8%81%E5%AE%89/</loc>
-    <lastmod>2025-03-19T21:54:08+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E6%AC%A7%E6%98%93/</loc>
     <lastmod>2025-03-18T21:27:38+08:00</lastmod>
