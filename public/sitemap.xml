@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/posts/2025041602/</loc>
-    <lastmod>2025-04-16T22:47:38+08:00</lastmod>
-  </url><url>
     <loc>https://example.com/posts/20250419/</loc>
     <lastmod>2025-04-19T19:16:24+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/2025041602/</loc>
+    <lastmod>2025-04-16T22:47:38+08:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/2025041601/</loc>
     <lastmod>2025-04-16T22:35:01+08:00</lastmod>
