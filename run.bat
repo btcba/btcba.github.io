@@ -1,18 +1,20 @@
 @echo off
 
-echo "1.�����ļ�."
+echo "1.编译文件."
 hugo
 
-echo "2.��ʼ�������ļ�.."
+echo "2.初始化新增文件.."
 
 git add .
 
-echo "3. �ύ�ļ�������..."
+echo "3. 提交文件到本地..."
 
-git commit -m '�ύ'
+git commit -m '提交'
 
-echo "5. ���͵�Զ�ֿ̲�....."
+echo "5. 推送到远程仓库....."
 
 git push -u origin main
 
-echo "6. ���"
+echo "6. 上传到云服务器"
+scp -r public/* btcba:/var/www/
+echo "7. 完成"
