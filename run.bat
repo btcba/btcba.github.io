@@ -16,5 +16,11 @@ echo "5. 推送到远程仓库....."
 git push -u origin main
 
 echo "6. 上传到云服务器"
-scp -r public/* btcba:/var/www/
+scp -r public/posts/* btcba:/var/www/posts/
+scp -r public/categories/* btcba:/var/www/categories/
+scp -r public/page/* btcba:/var/www/page/
+scp -r public/tags/* btcba:/var/www/tags/
+scp -r public/index.* btcba:/var/www/
+scp -r public/sitemap.xml btcba:/var/www/
+
 echo "7. 完成"
