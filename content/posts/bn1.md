@@ -20,7 +20,7 @@ weight: 1
 ## 1. 访问注册页面
 
 首先，点击以下链接进入币安的官方注册页面：
-[注册币安账户](https://www.marketwebb.club/join?ref=UKNXKQAK)
+[注册币安账户](https://www.binance.com/join?ref=UKNXKQAK)
 
 通过此链接注册，你将自动应用邀请码 **UKNXKQAK**，享受相关优惠。
 
@@ -53,6 +53,6 @@ weight: 1
 
 完成以上步骤后，你的账户就注册成功了！现在你可以开始探索币安平台上的多种交易功能，包含现货交易、期货交易、杠杆交易等。
 
-点击链接马上注册并开始交易吧：[注册币安账户](https://www.marketwebb.club/join?ref=UKNXKQAK)
+点击链接马上注册并开始交易吧：[注册币安账户](https://www.binance.com/join?ref=UKNXKQAK)
 
 """
