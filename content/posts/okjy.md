@@ -5,7 +5,7 @@ linktitle: OKX 交易所使用教程：如何买卖比特币及其他数字货�
 menu:
   main:
     parent: tutorials
-next: /posts/ba
+next: /posts/fdf
 prev: /posts/okx2024
 title:  OKX 交易所使用教程：如何买卖比特币及其他数字货币
 weight: 5

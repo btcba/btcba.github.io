@@ -1,5 +1,5 @@
 ---
-author: "Michael Henderson"
+author: "btcba"
 date: 2024-09-18
 linktitle: 币安注册全流程教程：快速开启你的数字货币交易之旅
 menu:

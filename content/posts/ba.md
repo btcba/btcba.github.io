@@ -1,14 +1,15 @@
 ---
-author: "Michael Henderson"
+author: "btcba"
 date: 2024-09-12
 linktitle: 如何通过币安注册进行加密货币交易
 menu:
   main:
     parent: tutorials
-next: /posts/okjy
+next: /posts/as
 prev: /posts/ok2024
 title:  如何通过币安注册进行加密货币交易
 weight: 3
+tags: ["币安"]
 ---
 
 
