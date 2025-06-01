@@ -11,6 +11,8 @@ title: 币安App中文设置教程：美区Apple ID下载的是binance.us怎么�
 weight: 4
 tags: ["币安","Binance","App Store","苹果ID","台湾ID","币安注册","交易手续费"]
 ---
+# 币安App中文设置教程：美区Apple ID下载的是binance.us怎么办？
+
 
 ## 前言：美区App Store无法下载中文币安？别担心，有解！
 
