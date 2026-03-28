@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://bnb1234.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.e53ad1600067731622534dd6b342af705577101ba51fdc0ea6df230383534b55.js" integrity="sha256-5TrRYABncxYiU03Ws0KvcFV3EBulH9wOpt8jA4NTS1U=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.ee32c0510356c2802d16c78d49cba52f46a0638ff4ebcd4012a0c0e294402f83.js" integrity="sha256-7jLAUQNWwoAtFseNSculL0agY4/0681AEqDA4pRAL4M=" crossorigin="anonymous"></script>
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-076TDWEBMQ"></script>
       <script>
@@ -133,12 +133,12 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>
-          <span>454</span>
+          <span>462</span>
         </li>
       
         <li class="flex justify-between">
           <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-          <span>455</span>
+          <span>463</span>
         </li>
       
         <li class="flex justify-between">
@@ -494,6 +494,671 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
+      <a href="/posts/2026032702/">币安 Web3 钱包全攻略：USDT 提现、转账与 Gas 费避坑指南</a>
+    </h2>
+    
+  <h5>2026-03-27</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="币安-web3-钱包全攻略usdt-提现转账与-gas-费避坑指南">
+  币安 Web3 钱包全攻略：USDT 提现、转账与 Gas 费避坑指南
+  <a class="anchor" href="#%e5%b8%81%e5%ae%89-web3-%e9%92%b1%e5%8c%85%e5%85%a8%e6%94%bb%e7%95%a5usdt-%e6%8f%90%e7%8e%b0%e8%bd%ac%e8%b4%a6%e4%b8%8e-gas-%e8%b4%b9%e9%81%bf%e5%9d%91%e6%8c%87%e5%8d%97">#</a>
+</h1>
+<p>在加密货币的世界里，学会将资产从交易所（CEX）转移到去中心化钱包（Web3 钱包）是通往 DeFi、NFT 交互以及“囤币”自由的第一步。今天，我们就以**币安（Binance）**为例，手把手教你如何高效、安全地完成 USDT 的链上划转。</p>
+<h2 id="一-兵马未动粮草先行准备工作">
+  一、 兵马未动，粮草先行：准备工作
+  <a class="anchor" href="#%e4%b8%80-%e5%85%b5%e9%a9%ac%e6%9c%aa%e5%8a%a8%e7%b2%ae%e8%8d%89%e5%85%88%e8%a1%8c%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c">#</a>
+</h2>
+<p>如果你还没有币安账户，建议先完成注册。点击下方专属链接或在注册时填写邀请码，通常可以获得交易手续费的永久减免，这对于长期交易的小伙伴来说是一笔不小的省钱款项。</p>
+<ul>
+<li><strong>专属注册链接：</strong> <a href="https://www.binance.com/zh-CN/join?ref=BTC147">https://www.binance.com/zh-CN/join?ref=BTC147</a></li>
+<li><strong>邀请码：</strong> <code>BTC147</code></li>
+</ul>
+<h3 id="1-创建你的-web3-钱包">
+  1. 创建你的 Web3 钱包
+  <a class="anchor" href="#1-%e5%88%9b%e5%bb%ba%e4%bd%a0%e7%9a%84-web3-%e9%92%b1%e5%8c%85">#</a>
+</h3>
+<p>打开币安 APP，在首页顶部切换到 <strong>【Web3】</strong> 标签页。点击创建钱包，如果你之前设置过人脸识别或生物识别，系统会自动完成创建。</p>
+<h3 id="2-安全重于泰山助记词备份">
+  2. 安全重于泰山：助记词备份
+  <a class="anchor" href="#2-%e5%ae%89%e5%85%a8%e9%87%8d%e4%ba%8e%e6%b3%b0%e5%b1%b1%e5%8a%a9%e8%ae%b0%e8%af%8d%e5%a4%87%e4%bb%bd">#</a>
+</h3>
+<blockquote>
+<p><strong>⚠️ 铁律：</strong> 助记词就是你资产的唯一钥匙。</p>
+<ul>
+<li><strong>切勿截屏：</strong> 手机相册极易被恶意软件扫描。</li>
+<li><strong>切勿联网：</strong> 不要发到微信、云盘、记事本或邮箱。</li>
+<li><strong>最稳妥做法：</strong> 手抄在纸上，物理分开放置。丢失助记词 = 永远失去资产。</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="二-实操演示如何把-usdt-转入钱包">
+  二、 实操演示：如何把 USDT 转入钱包？
+  <a class="anchor" href="#%e4%ba%8c-%e5%ae%9e%e6%93%8d%e6%bc%94%e7%a4%ba%e5%a6%82%e4%bd%95%e6%8a%8a-usdt-%e8%bd%ac%e5%85%a5%e9%92%b1%e5%8c%85">#</a>
+</h2>
+<p>将 USDT 从币安交易所账户提到 Web3 钱包，主要有两种路径：</p>
+<h3 id="方法-a内部便捷划转最推荐">
+  方法 A：内部便捷划转（最推荐）
+  <a class="anchor" href="#%e6%96%b9%e6%b3%95-a%e5%86%85%e9%83%a8%e4%be%bf%e6%8d%b7%e5%88%92%e8%bd%ac%e6%9c%80%e6%8e%a8%e8%8d%90">#</a>
+</h3>
+<p>这是币安生态内最简单的操作，省去了手动复制地址的麻烦。</p>
+<ol>
+<li>在 Web3 钱包主页点击 <strong>【接收】</strong>。</li>
+<li>选择 <strong>【从币安交易所平台划转】</strong>。</li>
+<li>选择币种：<strong>USDT</strong>。</li>
+<li>选择网络：<strong>BNB Smart Chain (BEP20)</strong>。
+<ul>
+<li><em>注意：BEP20 网络速度快且手续费极低。</em></li>
+</ul>
+</li>
+<li>输入金额，确认地址（系统会自动匹配），点击确认即可。</li>
+</ol>
+<h3 id="方法-b通过钱包地址接收适用于其他交易所">
+  方法 B：通过钱包地址接收（适用于其他交易所）
+  <a class="anchor" href="#%e6%96%b9%e6%b3%95-b%e9%80%9a%e8%bf%87%e9%92%b1%e5%8c%85%e5%9c%b0%e5%9d%80%e6%8e%a5%e6%94%b6%e9%80%82%e7%94%a8%e4%ba%8e%e5%85%b6%e4%bb%96%e4%ba%a4%e6%98%93%e6%89%80">#</a>
+</h3>
+<p>如果你是从欧易（OKX）或其他平台转账：</p>
+        <a href="/posts/2026032702/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032704/">手把手教你玩转币安：2026全网最细注册、KYC及入金教学（含APP下载）</a>
+    </h2>
+    
+  <h5>2026-03-27</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="手把手教你玩转币安2026全网最细注册kyc及入金教学含app下载">
+  手把手教你玩转币安：2026全网最细注册、KYC及入金教学（含APP下载）
+  <a class="anchor" href="#%e6%89%8b%e6%8a%8a%e6%89%8b%e6%95%99%e4%bd%a0%e7%8e%a9%e8%bd%ac%e5%b8%81%e5%ae%892026%e5%85%a8%e7%bd%91%e6%9c%80%e7%bb%86%e6%b3%a8%e5%86%8ckyc%e5%8f%8a%e5%85%a5%e9%87%91%e6%95%99%e5%ad%a6%e5%90%abapp%e4%b8%8b%e8%bd%bd">#</a>
+</h1>
+<p>如果你曾对比特币产生过好奇，或者刚踏入区块链的大门，那么**币安（Binance）**这个名字你一定不会陌生。它不仅是一个交易工具，更是通往数字经济世界的桥梁。</p>
+<p>本文将带你深度复盘：币安到底是什么？它为何能成为行业霸主？以及作为新手，你该如何安全、高效地完成从注册到买入第一枚比特币的全过程。</p>
+<hr>
+<h2 id="一-认识币安不仅仅是交易所">
+  一、 认识币安：不仅仅是交易所
+  <a class="anchor" href="#%e4%b8%80-%e8%ae%a4%e8%af%86%e5%b8%81%e5%ae%89%e4%b8%8d%e4%bb%85%e4%bb%85%e6%98%af%e4%ba%a4%e6%98%93%e6%89%80">#</a>
+</h2>
+<h3 id="1-加密世界的纳斯达克">
+  1. 加密世界的“纳斯达克”
+  <a class="anchor" href="#1-%e5%8a%a0%e5%af%86%e4%b8%96%e7%95%8c%e7%9a%84%e7%ba%b3%e6%96%af%e8%be%be%e5%85%8b">#</a>
+</h3>
+<p>简单来说，币安是一个数字资产交易平台。如果把比特币比作股票，那么币安就是加密货币世界的<strong>纳斯达克</strong>或<strong>上交所</strong>。在这里，你可以买卖包括比特币（BTC）、以太坊（ETH）在内的数百种加密货币。</p>
+<h3 id="2-庞大的区块链生态系统">
+  2. 庞大的区块链生态系统
+  <a class="anchor" href="#2-%e5%ba%9e%e5%a4%a7%e7%9a%84%e5%8c%ba%e5%9d%97%e9%93%be%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f">#</a>
+</h3>
+<p>币安早已超越了“交易”本身。它目前是一个庞大的生态圈：</p>
+<ul>
+<li><strong>BNB Chain：</strong> 币安自主开发的区块链公链。</li>
+<li><strong>Binance Wallet：</strong> 安全的数字资产存储方案。</li>
+<li><strong>投资与孵化：</strong> 币安实验室（Binance Labs）投资了全球众多的区块链初创项目。</li>
+</ul>
+<hr>
+<h2 id="二-行业地位它真的是全球最大吗">
+  二、 行业地位：它真的是全球最大吗？
+  <a class="anchor" href="#%e4%ba%8c-%e8%a1%8c%e4%b8%9a%e5%9c%b0%e4%bd%8d%e5%ae%83%e7%9c%9f%e7%9a%84%e6%98%af%e5%85%a8%e7%90%83%e6%9c%80%e5%a4%a7%e5%90%97">#</a>
+</h2>
+<p><strong>答案是肯定的。</strong> 根据 CoinMarketCap 等权威数据平台统计，币安在以下维度长期稳居全球第一：</p>
+<ul>
+<li><strong>交易量：</strong> 币安的日交易量经常超过排名第二至第十名交易所的总和。</li>
+<li><strong>用户规模：</strong> 拥有遍布全球的亿级注册用户。</li>
+<li><strong>流动性：</strong> 极高的流动性意味着你可以以最快的速度、最理想的价格完成大额交易。</li>
+</ul>
+<hr>
+<h2 id="三-币安的前世今生一家无国界企业">
+  三、 币安的前世今生：一家“无国界”企业
+  <a class="anchor" href="#%e4%b8%89-%e5%b8%81%e5%ae%89%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%b8%80%e5%ae%b6%e6%97%a0%e5%9b%bd%e7%95%8c%e4%bc%81%e4%b8%9a">#</a>
+</h2>
+<p>币安由加拿大籍华人**赵长鹏（CZ）**于 2017 年 7 月创立。凭借极致的用户体验，它仅用半年时间就跃升至全球交易量首位。</p>
+<p><strong>它属于哪个国家？</strong>
+这是一个有趣的议题。币安最初诞生于中国，但随着全球监管政策的演变，它率先开启了<strong>全球分布式办公</strong>模式。目前，币安在迪拜、法国、巴黎等地均获得了合法牌照，是一家真正的无国界跨国企业，总部“无处不在”也正是其抗风险能力的体现。</p>
+<hr>
+<h2 id="四-新手实操注册下载与安全认证">
+  四、 新手实操：注册、下载与安全认证
+  <a class="anchor" href="#%e5%9b%9b-%e6%96%b0%e6%89%8b%e5%ae%9e%e6%93%8d%e6%b3%a8%e5%86%8c%e4%b8%8b%e8%bd%bd%e4%b8%8e%e5%ae%89%e5%85%a8%e8%ae%a4%e8%af%81">#</a>
+</h2>
+<h3 id="1-账号注册与节点选择">
+  1. 账号注册与节点选择
+  <a class="anchor" href="#1-%e8%b4%a6%e5%8f%b7%e6%b3%a8%e5%86%8c%e4%b8%8e%e8%8a%82%e7%82%b9%e9%80%89%e6%8b%a9">#</a>
+</h3>
+<p>在注册之前，环境准备至关重要：</p>
+<ul>
+<li><strong>网络环境：</strong> 建议将 IP 节点切换至<strong>台湾、日本或韩国</strong>。请务必避开美国、新加坡、加拿大及香港等受限地区。</li>
+<li><strong>注册方式：</strong> 支持邮箱或手机号注册（中国大陆手机号目前可正常接收验证码）。</li>
+</ul>
+<p><img src="https://i.mji.rip/2026/03/27/eda1a95b9fa78a317c366d7827fd69a2.png" alt="图片alt" title="图片title"/></p>
+<ul>
+<li><strong>福利小贴士：</strong> 在注册时填写邀请码 <code>BTC147</code>，可永久获得 <strong>20% 的手续费减免</strong>，这在长期交易中是一笔不小的节省。
+点击链接<a href="https://www.binance.com/zh-CN/join?ref=BTC147">https://www.binance.com/zh-CN/join?ref=BTC147</a>自动绑定邀请码。</li>
+</ul>
+<p><img src="https://i.mji.rip/2026/03/27/a1bde95a5989adcf663abad85cf54f2f.png" alt="图片alt" title="图片title"/></p>
+        <a href="/posts/2026032704/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032701/">新手必看：如何正确填写币安邀请码，锁定最高级别手续费返佣</a>
+    </h2>
+    
+  <h5>2026-03-27</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="-新手必看如何正确填写币安邀请码锁定最高级别手续费返佣">
+  🚀 新手必看：如何正确填写币安邀请码，锁定最高级别手续费返佣
+  <a class="anchor" href="#-%e6%96%b0%e6%89%8b%e5%bf%85%e7%9c%8b%e5%a6%82%e4%bd%95%e6%ad%a3%e7%a1%ae%e5%a1%ab%e5%86%99%e5%b8%81%e5%ae%89%e9%82%80%e8%af%b7%e7%a0%81%e9%94%81%e5%ae%9a%e6%9c%80%e9%ab%98%e7%ba%a7%e5%88%ab%e6%89%8b%e7%bb%ad%e8%b4%b9%e8%bf%94%e4%bd%a3">#</a>
+</h1>
+<p>踏入加密货币的世界，是不是感觉既兴奋又有点迷茫？在全球最大的数字资产交易平台——**币安（Binance）**开启旅程时，很多新手会忽略一个能“终身省钱”的关键细节：<strong>正确填写邀请码</strong>。</p>
+<p>交易手续费就像是“隐形税收”。如果你能在起点就拿到永久折扣，日积月累节省下来的资金，就是你额外的交易资本。</p>
+<blockquote>
+<p><strong>核心代码：</strong> <code>BTC147</code> （锁定 20% 永久返佣）</p>
+</blockquote>
+<hr>
+<h3 id="-为什么邀请码是新手的第一桶金">
+  💡 为什么邀请码是新手的“第一桶金”？
+  <a class="anchor" href="#-%e4%b8%ba%e4%bb%80%e4%b9%88%e9%82%80%e8%af%b7%e7%a0%81%e6%98%af%e6%96%b0%e6%89%8b%e7%9a%84%e7%ac%ac%e4%b8%80%e6%a1%b6%e9%87%91">#</a>
+</h3>
+<p>在币圈，<strong>省钱就是赚钱</strong>。</p>
+<ul>
+<li><strong>高频交易者的救星：</strong> 无论买入还是卖出，平台都会收取手续费。如果你交易频繁，这笔开支可能侵蚀掉你很大一部分利润。</li>
+<li><strong>一次锁定，终身受益：</strong> 币安的返佣比例在注册时一旦确定，后续<strong>无法更改</strong>。如果注册时填错了或没填，你就错失了这笔永久的“被动收入”。</li>
+<li><strong>复利效应：</strong> 假设你每月手续费支出为 1000 USDT，使用邀请码 <code>BTC147</code> 节省的 200 USDT 重新投入市场，一年下来这笔“复利”将非常可观。</li>
+</ul>
+<hr>
+<h3 id="-币安注册图文级避坑指南">
+  📝 币安注册：图文级避坑指南
+  <a class="anchor" href="#-%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e5%9b%be%e6%96%87%e7%ba%a7%e9%81%bf%e5%9d%91%e6%8c%87%e5%8d%97">#</a>
+</h3>
+<p>请务必按照以下步骤操作，确保 20% 的优惠准确到账：</p>
+<h4 id="第一步访问官方安全通道">
+  第一步：访问官方安全通道
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%ae%bf%e9%97%ae%e5%ae%98%e6%96%b9%e5%ae%89%e5%85%a8%e9%80%9a%e9%81%93">#</a>
+</h4>
+<p>为了资金安全，请务必通过官方链接注册，避免钓鱼网站。</p>
+<ul>
+<li><strong><a href="https://www.binance.com/zh-CN/join?ref=BTC147">币安官方注册直达链接</a></strong> （已内置 <code>BTC147</code> 代码，享 20% 返佣）</li>
+</ul>
+<h4 id="第二步填写注册信息">
+  第二步：填写注册信息
+  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%a1%ab%e5%86%99%e6%b3%a8%e5%86%8c%e4%bf%a1%e6%81%af">#</a>
+</h4>
+<p>使用常用的<strong>邮箱</strong>或<strong>手机号</strong>进行注册，并设置强密码。</p>
+<h4 id="第三步手动核对邀请码关键">
+  第三步：手动核对邀请码（关键！）
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e6%89%8b%e5%8a%a8%e6%a0%b8%e5%af%b9%e9%82%80%e8%af%b7%e7%a0%81%e5%85%b3%e9%94%ae">#</a>
+</h4>
+<p>在注册页面下方点击“<strong>推荐 ID（选填）</strong>”，确保框内填入的是：<code>BTC147</code>。</p>
+<ul>
+<li><strong>验证成功标志：</strong> 输入代码后，系统若显示“<strong>您的返佣比例：20%</strong>”，恭喜你，最高优惠已成功锁定！</li>
+</ul>
+<h4 id="第四步完成-kyc-身份验证">
+  第四步：完成 KYC 身份验证
+  <a class="anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%ae%8c%e6%88%90-kyc-%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81">#</a>
+</h4>
+<p>这是保护账户安全、提高提现限额的必要步骤。建议准备好身份证件，一气呵成完成验证。</p>
+<hr>
+<h3 id="-双雄并进币安-vs-okx">
+  ⚖️ 双雄并进：币安 vs OKX
+  <a class="anchor" href="#-%e5%8f%8c%e9%9b%84%e5%b9%b6%e8%bf%9b%e5%b8%81%e5%ae%89-vs-okx">#</a>
+</h3>
+<p>资深玩家通常不会“把鸡蛋放在一个篮子里”。除了币安，<strong>欧易 OKX</strong> 也是必不可少的工具。</p>
+        <a href="/posts/2026032701/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032604/">2026 币安 (Binance) 国际版下载与注册全攻略</a>
+    </h2>
+    
+  <h5>2026-03-26</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="2026-币安-binance-国际版下载与注册全攻略">
+  2026 币安 (Binance) 国际版下载与注册全攻略
+  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89-binance-%e5%9b%bd%e9%99%85%e7%89%88%e4%b8%8b%e8%bd%bd%e4%b8%8e%e6%b3%a8%e5%86%8c%e5%85%a8%e6%94%bb%e7%95%a5">#</a>
+</h1>
+<p>对于中文用户来说，下载币安最容易犯的错误就是下载了 <strong>Binance.US（美国版）</strong>。请务必记住：美国版是“阉割版”，功能受限且不支持中国大陆身份认证。我们要下载的是<strong>币安国际版</strong>。</p>
+<hr>
+<h3 id="第一步准备工作获取台湾区-apple-id">
+  第一步：准备工作（获取台湾区 Apple ID）
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c%e8%8e%b7%e5%8f%96%e5%8f%b0%e6%b9%be%e5%8c%ba-apple-id">#</a>
+</h3>
+<p><strong>由于中国区和美国区 App Store 均无法下载币安国际版</strong>，目前最稳定的方案是使用<strong>台湾区 (Taiwan) Apple ID</strong>。</p>
+<ul>
+<li><strong>获取方式</strong>：建议通过搜索引擎（如 Google）搜索“台湾 Apple ID 购买”。</li>
+<li><strong>选购建议</strong>：选择 15 元左右的<strong>独享账号</strong>。不要买几块钱的共享账号，容易锁定且有安全隐患。</li>
+<li><strong>切换账号</strong>：
+<ol>
+<li>打开 <code>App Store</code>，点击右上角头像，滑到底部点击 <strong>登出 (Sign Out)</strong>。</li>
+<li>登录购买的台区账号（如遇双重验证，按商家提供的教程操作）。</li>
+<li>搜索 <strong>“Binance”</strong>，认准黄色图标的国际版下载。</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h3 id="第二步账号注册避开常见坑点">
+  第二步：账号注册（避开常见坑点）
+  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e8%b4%a6%e5%8f%b7%e6%b3%a8%e5%86%8c%e9%81%bf%e5%bc%80%e5%b8%b8%e8%a7%81%e5%9d%91%e7%82%b9">#</a>
+</h3>
+<p>下载完成后，打开 App 开始注册。</p>
+<ol>
+<li><strong>注册方式</strong>：点击“注册”，推荐使用 <strong>个人常用的邮箱</strong>（如 163、QQ 或 Gmail）或 <strong>中国大陆手机号</strong>。
+<blockquote>
+<p><strong>注意</strong>：不建议点击“通过 Apple 继续”，因为那是你买来的临时 ID，后期找回账号会非常麻烦。</p>
+</blockquote>
+</li>
+<li><strong>设置密码</strong>：需满足 8 位字符、含数字和至少一个大写字母。</li>
+<li><strong>填写邀请码（关键省钱步骤）</strong>：
+在注册页面的“推荐人 ID”处填写：<strong>UKNXKQAK</strong>
+<ul>
+<li><strong>为什么要填？</strong> 填写此码可获得 <strong>20% 的手续费永久返现</strong>。</li>
+<li><strong>省钱逻辑</strong>：假设交易产生 100 USDT 手续费，填码后系统会自动返还 20 USDT 到你的账户。不填则按全额收取，积少成多是一笔巨款。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="第三步身份认证-kyc">
+  第三步：身份认证 (KYC)
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81-kyc">#</a>
+</h3>
+<p>根据合规要求，不完成认证将无法进行买币和交易。</p>
+        <a href="/posts/2026032604/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032602/">2026 币安 (Binance) 注册与开户全攻略：5 分钟完成 KYC 身份认证</a>
+    </h2>
+    
+  <h5>2026-03-26</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="2026-币安-binance-注册与开户全攻略5-分钟完成-kyc-身份认证">
+  2026 币安 (Binance) 注册与开户全攻略：5 分钟完成 KYC 身份认证
+  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89-binance-%e6%b3%a8%e5%86%8c%e4%b8%8e%e5%bc%80%e6%88%b7%e5%85%a8%e6%94%bb%e7%95%a55-%e5%88%86%e9%92%9f%e5%ae%8c%e6%88%90-kyc-%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81">#</a>
+</h1>
+<p>在加密货币投资领域，选择一个安全、合规且手手续费低廉的交易所至关重要。作为全球交易量最大的数字资产平台，<strong>币安 (Binance)</strong> 凭借其极高的流动性和安全性，成为了新手入场的第一站。</p>
+<p>本教程将手把手教你如何使用 <strong>邀请码 UKNXKQAK</strong> 注册账号，并享受 <strong>20% 交易手续费减免</strong> 的专属福利。</p>
+<hr>
+<h2 id="-准备工作注册前需具备的条件">
+  ## 准备工作：注册前需具备的条件
+  <a class="anchor" href="#-%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c%e6%b3%a8%e5%86%8c%e5%89%8d%e9%9c%80%e5%85%b7%e5%a4%87%e7%9a%84%e6%9d%a1%e4%bb%b6">#</a>
+</h2>
+<p>在开始注册之前，请确保你准备好以下材料，以保证流程顺畅：</p>
+<ol>
+<li><strong>邮箱或手机号：</strong> 建议使用常用的海外邮箱（如 Gmail 或 Outlook）。</li>
+<li><strong>身份证明：</strong> 准备好原件（有效身份证、护照或驾驶证）。</li>
+<li><strong>网络环境：</strong> 建议使用稳定、合法的网络连接，避免频繁更换 IP 导致账号风控。</li>
+</ol>
+<hr>
+<h2 id="-币安注册步骤详解-图文教程">
+  ## 币安注册步骤详解 (图文教程)
+  <a class="anchor" href="#-%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e6%ad%a5%e9%aa%a4%e8%af%a6%e8%a7%a3-%e5%9b%be%e6%96%87%e6%95%99%e7%a8%8b">#</a>
+</h2>
+<h3 id="-第一步访问币安官网">
+  ### 第一步：访问币安官网
+  <a class="anchor" href="#-%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%ae%bf%e9%97%ae%e5%b8%81%e5%ae%89%e5%ae%98%e7%bd%91">#</a>
+</h3>
+<p>点击下方官方注册链接（已内置邀请码）：</p>
+<blockquote>
+<p><strong><a href="https://www.binance.com/join?ref=UKNXKQAK">https://www.binance.com/join?ref=UKNXKQAK</a></strong></p>
+</blockquote>
+<p><strong>注意：</strong> 如果手动访问官网，请务必在“邀请码”一栏输入：<code>UKNXKQAK</code>，否则将无法获得手续费折扣。</p>
+<h3 id="-第二步选择注册方式">
+  ### 第二步：选择注册方式
+  <a class="anchor" href="#-%e7%ac%ac%e4%ba%8c%e6%ad%a5%e9%80%89%e6%8b%a9%e6%b3%a8%e5%86%8c%e6%96%b9%e5%bc%8f">#</a>
+</h3>
+<p>进入页面后，你可以选择“使用手机或邮箱注册”。设置一个强密码（包含大小写字母及数字），勾选服务条款，点击“创建个人账户”。</p>
+<h3 id="-第三步安全验证">
+  ### 第三步：安全验证
+  <a class="anchor" href="#-%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81">#</a>
+</h3>
+<p>币安会向你的邮箱或手机发送一组 6 位数的验证码。请在 30 分钟内输入验证码完成激活。</p>
+<hr>
+<h2 id="-核心环节kyc-身份认证流程">
+  ## 核心环节：KYC 身份认证流程
+  <a class="anchor" href="#-%e6%a0%b8%e5%bf%83%e7%8e%af%e8%8a%82kyc-%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81%e6%b5%81%e7%a8%8b">#</a>
+</h2>
+<p>根据 2026 年最新的合规要求，所有币安用户必须完成 <strong>KYC (Know Your Customer)</strong> 认证才能进行充值和交易。</p>
+        <a href="/posts/2026032602/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032601/">2026 币安（Binance）新手全攻略：从支付宝入金到高阶交易实操</a>
+    </h2>
+    
+  <h5>2026-03-26</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="2026-币安binance新手全攻略从支付宝入金到高阶交易实操">
+  2026 币安（Binance）新手全攻略：从支付宝入金到高阶交易实操
+  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89binance%e6%96%b0%e6%89%8b%e5%85%a8%e6%94%bb%e7%95%a5%e4%bb%8e%e6%94%af%e4%bb%98%e5%ae%9d%e5%85%a5%e9%87%91%e5%88%b0%e9%ab%98%e9%98%b6%e4%ba%a4%e6%98%93%e5%ae%9e%e6%93%8d">#</a>
+</h1>
+<p>在加密货币的世界里，选择一个安全、好用的交易平台是成功的开始。作为全球交易量最大的交易所，币安（Binance）不仅功能强大，还为新手提供了完善的保护机制。今天，我将手把手带你走一遍从零开始到熟练交易的全流程。</p>
+<blockquote>
+<p><strong>🎁 专属开户福利：</strong>
+在注册时，请务必使用推荐链接：<a href="https://www.binance.com/join?ref=UKNXKQAK"><strong>https://www.binance.com/join?ref=UKNXKQAK</strong></a>
+或手动输入邀请码：<strong>UKNXKQAK</strong>。
+这样你可以<strong>永久享受 20% 的交易手续费返现</strong>。在频繁的交易中，这笔返现将为你节省大量的成本。</p>
+</blockquote>
+<hr>
+<h2 id="一-资产敲门砖如何用支付宝购买-usdt">
+  一、 资产敲门砖：如何用支付宝购买 USDT
+  <a class="anchor" href="#%e4%b8%80-%e8%b5%84%e4%ba%a7%e6%95%b2%e9%97%a8%e7%a0%96%e5%a6%82%e4%bd%95%e7%94%a8%e6%94%af%e4%bb%98%e5%ae%9d%e8%b4%ad%e4%b9%b0-usdt">#</a>
+</h2>
+<p>想要买币，首先需要拥有“美元稳定币”——USDT。</p>
+<h3 id="1-c2c-自选区的选择策略">
+  1. C2C 自选区的选择策略
+  <a class="anchor" href="#1-c2c-%e8%87%aa%e9%80%89%e5%8c%ba%e7%9a%84%e9%80%89%e6%8b%a9%e7%ad%96%e7%95%a5">#</a>
+</h3>
+<p>进入币安首页，点击“添加资金”并进入 <strong>C2C 交易</strong>。虽然有多个区域，但对于注重安全的人来说，<strong>自选区</strong>是最佳选择。</p>
+<ul>
+<li><strong>筛选商家：</strong> 输入你想购买的金额（例如 1000 元），支付方式筛选“支付宝”。</li>
+<li><strong>神盾标识：</strong> 优先选择带有“神盾”图标的商家，这类商家缴纳了高额保证金，交易更有保障。</li>
+<li><strong>核心指标：</strong> 查看商家的成交量和成交率，最关键的是看其“开户时间”。建议选择开户一年以上的老商家，这类账户资产存活久，安全性极高。</li>
+</ul>
+<h3 id="2-实操提醒">
+  2. 实操提醒
+  <a class="anchor" href="#2-%e5%ae%9e%e6%93%8d%e6%8f%90%e9%86%92">#</a>
+</h3>
+<p>下单后，根据商家提供的支付宝信息（如小荷包、收款码）进行实名转账。转账完成后记得<strong>截图留证</strong>，并在币安系统内点击“我已完成付款”。</p>
+<hr>
+<h2 id="二-现货交易玩转限价单与市价单">
+  二、 现货交易：玩转限价单与市价单
+  <a class="anchor" href="#%e4%ba%8c-%e7%8e%b0%e8%b4%a7%e4%ba%a4%e6%98%93%e7%8e%a9%e8%bd%ac%e9%99%90%e4%bb%b7%e5%8d%95%e4%b8%8e%e5%b8%82%e4%bb%b7%e5%8d%95">#</a>
+</h2>
+<p>当你账户里有了 USDT，就可以去买入心仪的数字资产了。在现货交易中，主要有两种成交方式：</p>
+<p><strong>限价单（适合耐心选手）：</strong>
+你需要手动设定一个你认为理想的买入价格。比如当前比特币价格是 70,000 美元，你觉得它会跌，你可以挂一个 69,000 美元的单子。只有当行情真的跌到这个价位时，系统才会自动成交；如果一直没跌到，订单会持续挂在“当前委托”中。</p>
+<p><strong>市价单（适合效率选手）：</strong>
+如果你怕错过行情，想立即上车，就选择市价单。你只需输入想买的金额，系统会以当前市场上最优惠的价格帮你立刻成交，无需等待。</p>
+<hr>
+<h2 id="三-进阶玩法定投套利与合约">
+  三、 进阶玩法：定投、套利与合约
+  <a class="anchor" href="#%e4%b8%89-%e8%bf%9b%e9%98%b6%e7%8e%a9%e6%b3%95%e5%ae%9a%e6%8a%95%e5%a5%97%e5%88%a9%e4%b8%8e%e5%90%88%e7%ba%a6">#</a>
+</h2>
+<h3 id="1-懒人理财闪兑定投">
+  1. 懒人理财：闪兑定投
+  <a class="anchor" href="#1-%e6%87%92%e4%ba%ba%e7%90%86%e8%b4%a2%e9%97%aa%e5%85%91%e5%ae%9a%e6%8a%95">#</a>
+</h3>
+<p>在“更多服务”中可以找到定投功能。你可以设置每天固定时间（如每晚 23:00）自动买入一定金额的币种。币安还支持<strong>价格上下限设置</strong>，比如当比特币超过某个价格时自动停止定投，帮你更智能地摊平建仓成本。</p>
+<h3 id="2-稳健收益智能套利">
+  2. 稳健收益：智能套利
+  <a class="anchor" href="#2-%e7%a8%b3%e5%81%a5%e6%94%b6%e7%9b%8a%e6%99%ba%e8%83%bd%e5%a5%97%e5%88%a9">#</a>
+</h3>
+<p>智能套利（期现对冲）的原理是：买入 ETH 现货的同时在合约市场做空。</p>
+        <a href="/posts/2026032601/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/20260326/">2026 年新手入场：大陆用户注册币安与买币全攻略</a>
+    </h2>
+    
+  <h5>2026-03-26</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="2026-年新手入场大陆用户注册币安与买币全攻略">
+  2026 年新手入场：大陆用户注册币安与买币全攻略
+  <a class="anchor" href="#2026-%e5%b9%b4%e6%96%b0%e6%89%8b%e5%85%a5%e5%9c%ba%e5%a4%a7%e9%99%86%e7%94%a8%e6%88%b7%e6%b3%a8%e5%86%8c%e5%b8%81%e5%ae%89%e4%b8%8e%e4%b9%b0%e5%b8%81%e5%85%a8%e6%94%bb%e7%95%a5">#</a>
+</h1>
+<p>在 2026 年，加密货币交易已经非常成熟。只要你掌握了正确的方法，买比特币就像网购一样简单安全。以下是手把手的保姆级教程。</p>
+<h3 id="一-注册前的准备工作">
+  一、 注册前的准备工作
+  <a class="anchor" href="#%e4%b8%80-%e6%b3%a8%e5%86%8c%e5%89%8d%e7%9a%84%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c">#</a>
+</h3>
+<p>在操作之前，请务必检查并准备好以下三项：</p>
+<ul>
+<li><strong>网络环境：</strong> 准备一个稳定的科学上网工具，节点建议选择 <strong>台湾</strong> 或 <strong>日本</strong>。<strong>切记：</strong> 请避开美国节点，否则可能会进入受限版本，导致无法正常注册。</li>
+<li><strong>注册工具：</strong> 推荐使用 <strong>Outlook</strong> 或 <strong>Gmail</strong> 邮箱进行注册。手机号可以直接使用中国大陆（+86）号码。</li>
+<li><strong>苹果手机下载：</strong> 如果你是 iPhone 用户，需要一个<strong>海外 Apple ID</strong>（推荐台湾地区）。
+<blockquote>
+<p><em>小提示：</em> 不要使用美国 ID 下载，否则下载到的是功能阉割版。你可以在 Google 搜索如何注册或购买一个现成的台湾 Apple ID。</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h3 id="二-下载与注册账号关键步骤">
+  二、 下载与注册账号（关键步骤）
+  <a class="anchor" href="#%e4%ba%8c-%e4%b8%8b%e8%bd%bd%e4%b8%8e%e6%b3%a8%e5%86%8c%e8%b4%a6%e5%8f%b7%e5%85%b3%e9%94%ae%e6%ad%a5%e9%aa%a4">#</a>
+</h3>
+<ol>
+<li><strong>下载 App：</strong> 登录海外 Apple ID 后，在 App Store 搜索“Binance”或“币安”下载。安卓用户可直接在 Google Play 下载。</li>
+<li><strong>创建账户：</strong> 打开 App，点击“注册”，选择“邮箱/手机号注册”。</li>
+<li><strong>填写注册信息：</strong> 输入你的邮箱或手机号，并设置一个强密码（需包含大写字母和数字）。</li>
+<li><strong>填写邀请码（重点）：</strong>
+在注册页面，点击“我有邀请 ID”，填入官方授权邀请码：<strong><code>UKNXKQAK</code></strong>。
+或者直接点击专属链接进行注册：<a href="https://www.binance.com/join?ref=UKNXKQAK">https://www.binance.com/join?ref=UKNXKQAK</a>
+<blockquote>
+<p><strong>为什么要填？</strong> 使用此邀请码注册，你可以永久获得 <strong>20% 的手续费返还优惠</strong>。在币圈交易，手续费是一笔长期支出，不填则无法享受此项福利。</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h3 id="三-身份认证kyc">
+  三、 身份认证（KYC）
+  <a class="anchor" href="#%e4%b8%89-%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81kyc">#</a>
+</h3>
+<p>注册完成后，必须进行实名认证才能开启交易权限：</p>
+        <a href="/posts/20260326/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/2026032603/">2026最新币安(Binance)注册教程：5分钟完成开户，输入邀请码UKNXKQAK享永久返佣</a>
+    </h2>
+    
+  <h5>2026-03-26</h5>
+
+
+
+  
+
+  
+  <div>
+    
+      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
+      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
+  </div>
+  
+
+
+
+
+    <p><h1 id="2026最新币安binance注册教程5分钟完成开户输入邀请码uknxkqak享永久返佣">
+  2026最新币安(Binance)注册教程：5分钟完成开户，输入邀请码UKNXKQAK享永久返佣
+  <a class="anchor" href="#2026%e6%9c%80%e6%96%b0%e5%b8%81%e5%ae%89binance%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b5%e5%88%86%e9%92%9f%e5%ae%8c%e6%88%90%e5%bc%80%e6%88%b7%e8%be%93%e5%85%a5%e9%82%80%e8%af%b7%e7%a0%81uknxkqak%e4%ba%ab%e6%b0%b8%e4%b9%85%e8%bf%94%e4%bd%a3">#</a>
+</h1>
+<p>作为全球最大的加密货币交易所，币安（Binance）凭借其极高的流动性、丰富的交易对以及顶级的安全性，成为了每一位数字货币投资者的首选。本文将为您提供最详尽的<strong>2026版币安注册指南</strong>，助您快速开启交易之旅。</p>
+<hr>
+<h2 id="为什么要在注册时填写邀请码-uknxkqak">
+  为什么要在注册时填写邀请码 UKNXKQAK？
+  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%9c%a8%e6%b3%a8%e5%86%8c%e6%97%b6%e5%a1%ab%e5%86%99%e9%82%80%e8%af%b7%e7%a0%81-uknxkqak">#</a>
+</h2>
+<p>在注册页面填写邀请码 <strong>UKNXKQAK</strong> 并非只是形式，它能为您带来实打实的好处：</p>
+<ul>
+<li><strong>手续费减免</strong>：使用该代码注册，您可以获得最高级别的交易手续费折扣（通常为 20%）。</li>
+<li><strong>新手礼包</strong>：新用户完成相应任务可领取高达 100 USDT 的新手返现券。</li>
+<li><strong>长期福利</strong>：参与币安不定期的持仓返利与空投活动。</li>
+</ul>
+<blockquote>
+<p><strong>快捷注册链接</strong>：<a href="https://www.binance.com/join?ref=UKNXKQAK">点击此处直接跳转至币安官网注册页面</a></p>
+</blockquote>
+<hr>
+<h2 id="币安注册详细步骤-图文指南">
+  币安注册详细步骤 (图文指南)
+  <a class="anchor" href="#%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e8%af%a6%e7%bb%86%e6%ad%a5%e9%aa%a4-%e5%9b%be%e6%96%87%e6%8c%87%e5%8d%97">#</a>
+</h2>
+<h3 id="第一步访问注册页面">
+  第一步：访问注册页面
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%ae%bf%e9%97%ae%e6%b3%a8%e5%86%8c%e9%a1%b5%e9%9d%a2">#</a>
+</h3>
+<p>点击上方链接，或在浏览器中输入 <code>https://www.binance.com/join?ref=UKNXKQAK</code>。</p>
+<ul>
+<li><strong>注意</strong>：请确保您身处合法的网络环境。如果页面加载缓慢，请检查网络连接。</li>
+</ul>
+<h3 id="第二步选择注册方式">
+  第二步：选择注册方式
+  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e9%80%89%e6%8b%a9%e6%b3%a8%e5%86%8c%e6%96%b9%e5%bc%8f">#</a>
+</h3>
+<p>您可以选择以下任一方式进行注册：</p>
+<ol>
+<li><strong>邮箱注册</strong>（推荐，方便接收系统通知）。</li>
+<li><strong>手机号注册</strong>。</li>
+<li><strong>第三方账户</strong>（如 Apple ID 或 Google 账号快速关联）。</li>
+</ol>
+<h3 id="第三步输入邀请码-uknxkqak">
+  第三步：输入邀请码 UKNXKQAK
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e8%be%93%e5%85%a5%e9%82%80%e8%af%b7%e7%a0%81-uknxkqak">#</a>
+</h3>
+<p>在注册表单中，请务必确认“<strong>推荐人 ID</strong>”一栏已填入 <strong><code>UKNXKQAK</code></strong>。如果通过链接进入，该字段通常会自动填充。手动输入可确保您的手续费优惠生效。</p>
+<h3 id="第四步安全验证与激活">
+  第四步：安全验证与激活
+  <a class="anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e4%b8%8e%e6%bf%80%e6%b4%bb">#</a>
+</h3>
+<ol>
+<li>系统会向您的邮箱或手机发送一个 <strong>6 位数的验证码</strong>。</li>
+<li>在 30 分钟内输入验证码完成激活。</li>
+<li>设置一个高强度的登录密码（包含大小写字母、数字及特殊符号）。</li>
+</ol>
+<hr>
+<h2 id="必做步骤身份认证-kyc">
+  必做步骤：身份认证 (KYC)
+  <a class="anchor" href="#%e5%bf%85%e5%81%9a%e6%ad%a5%e9%aa%a4%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81-kyc">#</a>
+</h2>
+<p>根据 2026 年全球合规要求，所有新用户必须完成身份认证才能进行充值和交易。</p>
+<ol>
+<li><strong>准备证件</strong>：身份证、驾照或护照。</li>
+<li><strong>人脸识别</strong>：使用币安 App 扫描脸部，确保环境光线充足。</li>
+<li><strong>审核时间</strong>：通常在 1 小时内完成，最长不超过 24 小时。</li>
+</ol>
+<hr>
+<h2 id="账户安全设置-新手必读">
+  账户安全设置 (新手必读)
+  <a class="anchor" href="#%e8%b4%a6%e6%88%b7%e5%ae%89%e5%85%a8%e8%ae%be%e7%bd%ae-%e6%96%b0%e6%89%8b%e5%bf%85%e8%af%bb">#</a>
+</h2>
+<p>为了您的资金安全，注册完成后请务必开启以下功能：</p>
+        <a href="/posts/2026032603/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
       <a href="/posts/2026032605/">币安老用户召回重大调整！门槛全面降低，唤醒你的沉睡账号！</a>
     </h2>
     
@@ -629,658 +1294,6 @@ https://github.com/alex-shpak/hugo-book
     </p>
   </article>
   
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032503/">2026 币安 (Binance) 推荐邀请码全攻略：错过就亏大！40% 手续费折扣申请教学</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安-binance-推荐邀请码全攻略错过就亏大40-手续费折扣申请教学">
-  2026 币安 (Binance) 推荐邀请码全攻略：错过就亏大！40% 手续费折扣申请教学
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89-binance-%e6%8e%a8%e8%8d%90%e9%82%80%e8%af%b7%e7%a0%81%e5%85%a8%e6%94%bb%e7%95%a5%e9%94%99%e8%bf%87%e5%b0%b1%e4%ba%8f%e5%a4%a740-%e6%89%8b%e7%bb%ad%e8%b4%b9%e6%8a%98%e6%89%a3%e7%94%b3%e8%af%b7%e6%95%99%e5%ad%a6">#</a>
-</h1>
-<p>在开启加密货币投资之路时，第一步也是最关键的一步，就是<strong>填写推荐邀请码</strong>。很多人在注册时急于求成点击跳过，事后才发现手续费积少成多是一笔巨款。</p>
-<p>本文将为你揭秘币安邀请码的“返佣黑箱”，并告诉你万一没填该如何救砖。</p>
-<hr>
-<h2 id="一-币安手续费折扣揭秘真的有-40-吗">
-  一、 币安手续费折扣揭秘：真的有 40% 吗？
-  <a class="anchor" href="#%e4%b8%80-%e5%b8%81%e5%ae%89%e6%89%8b%e7%bb%ad%e8%b4%b9%e6%8a%98%e6%89%a3%e6%8f%ad%e7%a7%98%e7%9c%9f%e7%9a%84%e6%9c%89-40-%e5%90%97">#</a>
-</h2>
-<p>网络上关于折扣的说法五花八门，其实币安的手续费优惠是由<strong>两部分</strong>构成的：</p>
-<h3 id="1-基础返佣-最高-20">
-  1. 基础返佣 (最高 20%)
-  <a class="anchor" href="#1-%e5%9f%ba%e7%a1%80%e8%bf%94%e4%bd%a3-%e6%9c%80%e9%ab%98-20">#</a>
-</h3>
-<ul>
-<li><strong>普通用户：</strong> 默认注册通常是 0% 或 10%。</li>
-<li><strong>合作 KOL/媒体：</strong> 拥有特殊权限，可提供<strong>最高 20%</strong> 的现货返佣。这是邀请码能带给你的“终身被动收入”。</li>
-</ul>
-<h3 id="2-bnb-抵扣-固定-25">
-  2. BNB 抵扣 (固定 25%)
-  <a class="anchor" href="#2-bnb-%e6%8a%b5%e6%89%a3-%e5%9b%ba%e5%ae%9a-25">#</a>
-</h3>
-<p>只要你在账户内持有少量 BNB 并开启“使用 BNB 支付手续费”功能，即可在现有基础上再打 75 折。</p>
-<blockquote>
-<p><strong>$$40% \text{ 折扣公式揭秘}$$</strong>
-很多文案提到的“40% 折扣”，实际上是 <strong>20%（邀请码返现）+ 25%（BNB 抵扣）</strong> 叠乘后的综合优惠效果。这是目前币安全球范围内能拿到的<strong>最高上限</strong>。</p>
-<ul>
-<li><strong>推荐邀请码：</strong> <code>UKNXKQAK</code>（确保显示“您享受的返现比例：20%”）</li>
-</ul>
-</blockquote>
-<hr>
-<h2 id="二-没填邀请码怎么办老用户召回计划是唯一救星">
-  二、 没填邀请码怎么办？“老用户召回计划”是唯一救星
-  <a class="anchor" href="#%e4%ba%8c-%e6%b2%a1%e5%a1%ab%e9%82%80%e8%af%b7%e7%a0%81%e6%80%8e%e4%b9%88%e5%8a%9e%e8%80%81%e7%94%a8%e6%88%b7%e5%8f%ac%e5%9b%9e%e8%ae%a1%e5%88%92%e6%98%af%e5%94%af%e4%b8%80%e6%95%91%e6%98%9f">#</a>
-</h2>
-<p>币安原则上<strong>不支持</strong>注册后补填或更改推荐人。如果你已经完成实名认证 (KYC) 且正在交易，通常只能遗憾错过。</p>
-<p>但如果你符合以下 <strong>“老用户召回计划”</strong> 的三个硬性条件，你还有一次“重掉装备”的机会：</p>
-<ol>
-<li><strong>已注册账户：</strong> 账号已经存在，但注册时没填码。</li>
-<li><strong>无绑定关系：</strong> 该账户从未绑定过任何推荐人。</li>
-<li><strong>180 天静止期：</strong> 账户在近 <strong>180 天内</strong> 没有任何交易记录。</li>
-</ol>
-<p><strong>补救方法：</strong>
-符合条件的用户，点击<a href="https://www.binance.com/join?ref=UKNXKQAK">老用户专属链接</a>并登录，系统会提示你补填邀请码。成功后即可永久享受 20% 的返佣。</p>
-        <a href="/posts/2026032503/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032524/">2026 币安 (Binance) 最新注册开户指南：5分钟开启加密交易之旅</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安-binance-最新注册开户指南5分钟开启加密交易之旅">
-  2026 币安 (Binance) 最新注册开户指南：5分钟开启加密交易之旅
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89-binance-%e6%9c%80%e6%96%b0%e6%b3%a8%e5%86%8c%e5%bc%80%e6%88%b7%e6%8c%87%e5%8d%975%e5%88%86%e9%92%9f%e5%bc%80%e5%90%af%e5%8a%a0%e5%af%86%e4%ba%a4%e6%98%93%e4%b9%8b%e6%97%85">#</a>
-</h1>
-<p>随着 Web3 和数字资产在全球范围内的普及，选择一个安全、合规且流动性顶尖的平台至关重要。作为全球最大的加密货币交易所，<strong>币安 (Binance)</strong> 依然是 2026 年投资者的首选。</p>
-<p>本教程将手把手带你完成从零注册到实战交易的全过程。</p>
-<hr>
-<h2 id="-快速注册入口">
-  ⚡ 快速注册入口
-  <a class="anchor" href="#-%e5%bf%ab%e9%80%9f%e6%b3%a8%e5%86%8c%e5%85%a5%e5%8f%a3">#</a>
-</h2>
-<ul>
-<li><strong>官方注册链接</strong>：<a href="https://www.binance.com/join?ref=UKNXKQAK">https://www.binance.com/join?ref=UKNXKQAK</a></li>
-<li><strong>专属邀请码</strong>：<code>UKNXKQAK</code></li>
-<li><strong>新人福利</strong>：通过此链接注册可自动绑定邀请码，享受<strong>永久交易手续费优惠</strong>及新人礼包。</li>
-</ul>
-<hr>
-<h2 id="一-为什么在-2026-年依然选择币安">
-  一、 为什么在 2026 年依然选择币安？
-  <a class="anchor" href="#%e4%b8%80-%e4%b8%ba%e4%bb%80%e4%b9%88%e5%9c%a8-2026-%e5%b9%b4%e4%be%9d%e7%84%b6%e9%80%89%e6%8b%a9%e5%b8%81%e5%ae%89">#</a>
-</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">优势维度</th>
-          <th style="text-align: left">详细说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>极致流动性</strong></td>
-          <td style="text-align: left">24小时成交量位居全球之首，买卖价差极小，大额交易秒级成交。</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>资产安全</strong></td>
-          <td style="text-align: left">拥有 <strong>SAFU (用户安全资产基金)</strong>，并在全球多地获得监管牌照。</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>全生态服务</strong></td>
-          <td style="text-align: left">涵盖现货、合约、理财 (Earn)、Launchpad 挖矿以及深度集成的 Web3 钱包。</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>双向回馈</strong></td>
-          <td style="text-align: left">不仅对新用户友好，针对符合条件的<strong>老用户</strong>（180天未交易且无绑定关系）还提供<strong>20%返佣召回计划</strong>。</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="二-币安注册全流程最新图文版">
-  二、 币安注册全流程（最新图文版）
-  <a class="anchor" href="#%e4%ba%8c-%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e5%85%a8%e6%b5%81%e7%a8%8b%e6%9c%80%e6%96%b0%e5%9b%be%e6%96%87%e7%89%88">#</a>
-</h2>
-<h3 id="第一步访问注册页面">
-  第一步：访问注册页面
-  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%ae%bf%e9%97%ae%e6%b3%a8%e5%86%8c%e9%a1%b5%e9%9d%a2">#</a>
-</h3>
-<p>点击 <a href="https://www.binance.com/join?ref=UKNXKQAK">官方邀请链接</a> 或在 App 注册时手动输入邀请码 <code>UKNXKQAK</code>。</p>
-<h3 id="第二步选择账户类型">
-  第二步：选择账户类型
-  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e9%80%89%e6%8b%a9%e8%b4%a6%e6%88%b7%e7%b1%bb%e5%9e%8b">#</a>
-</h3>
-<p>建议优先选择 <strong>“通过邮箱/手机注册”</strong>。</p>
-<blockquote>
-<p><strong>💡 建议：</strong> 为了更高的账户安全性，推荐使用海外主流邮箱（如 Gmail 或 Outlook）。</p>
-</blockquote>
-<h3 id="第三步设置密码与验证邀请码">
-  第三步：设置密码与验证邀请码
-  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e8%ae%be%e7%bd%ae%e5%af%86%e7%a0%81%e4%b8%8e%e9%aa%8c%e8%af%81%e9%82%80%e8%af%b7%e7%a0%81">#</a>
-</h3>
-<ul>
-<li><strong>密码设置</strong>：需包含大写字母、数字，长度至少 8 位。</li>
-<li><strong>确认邀请码</strong>：确保栏目中显示 <code>UKNXKQAK</code>，这是获取手续费返还的关键。</li>
-</ul>
-<h3 id="第四步完成身份认证-kyc">
-  第四步：完成身份认证 (KYC)
-  <a class="anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%ae%8c%e6%88%90%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81-kyc">#</a>
-</h3>
-<p>根据合规要求，新账户必须完成实名认证才能开启充值与交易：</p>
-        <a href="/posts/2026032524/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032526/">2026 币安 (Binance) 最新注册教程：完整流程与避坑指南</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安-binance-最新注册教程完整流程与避坑指南">
-  2026 币安 (Binance) 最新注册教程：完整流程与避坑指南
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89-binance-%e6%9c%80%e6%96%b0%e6%b3%a8%e5%86%8c%e6%95%99%e7%a8%8b%e5%ae%8c%e6%95%b4%e6%b5%81%e7%a8%8b%e4%b8%8e%e9%81%bf%e5%9d%91%e6%8c%87%e5%8d%97">#</a>
-</h1>
-<p>在数字资产投资领域，<strong>币安 (Binance)</strong> 凭借其世界级的流动性和安全防护，始终是全球投资者的首选平台。本文将为你提供 2026 年最准确的注册指引，助你快速完成开户。</p>
-<h3 id="-官方注册通道">
-  🚀 官方注册通道
-  <a class="anchor" href="#-%e5%ae%98%e6%96%b9%e6%b3%a8%e5%86%8c%e9%80%9a%e9%81%93">#</a>
-</h3>
-<ul>
-<li><strong>注册链接：</strong> <a href="https://www.binance.com/join?ref=UKNXKQAK">点击进入币安官方注册页面</a></li>
-<li><strong>专属邀请码：</strong> <code>UKNXKQAK</code></li>
-</ul>
-<blockquote>
-<p><strong>福利提示：</strong> 通过此链接注册可自动绑定邀请码，享受手续费永久减免及新手专属限时礼包。</p>
-</blockquote>
-<hr>
-<h3 id="一-币安注册四步走2026-最新版">
-  一、 币安注册四步走（2026 最新版）
-  <a class="anchor" href="#%e4%b8%80-%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e5%9b%9b%e6%ad%a5%e8%b5%b02026-%e6%9c%80%e6%96%b0%e7%89%88">#</a>
-</h3>
-<p><strong>第一步：进入官方注册页面</strong>
-点击 <a href="https://www.binance.com/join?ref=UKNXKQAK">官方邀请链接</a> 开启注册。如果你是直接下载 App 注册，请务必在“推荐人 ID”一栏手动填写：<code>UKNXKQAK</code>，否则无法享受后续的手续费返还。</p>
-<p><strong>第二步：选择注册方式</strong>
-建议优先选择 <strong>邮箱注册</strong>（推荐使用 Gmail、Outlook 等国际通用邮箱），因为在后续接收提币确认和安全预警时，邮箱的稳定性通常高于短信。</p>
-<p><strong>第三步：完成验证码确认</strong>
-输入邮箱或手机号后，点击下一步。系统会立即向你发送一个 6 位数的验证码。请迅速查看收件箱并将其输入，这一步是为了确保你的联系方式真实有效。</p>
-<p><strong>第四步：设置高强度密码</strong>
-通过验证后，最后一步是设置登录密码。为了资金安全，请务必设置包含：<strong>至少 8 位字符、包含大写字母和数字</strong>的复杂密码。建议不要与其他平台密码重复。</p>
-<hr>
-<h3 id="二-身份认证-kyc-必看">
-  二、 身份认证 (KYC) 必看
-  <a class="anchor" href="#%e4%ba%8c-%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81-kyc-%e5%bf%85%e7%9c%8b">#</a>
-</h3>
-<p>完成账户创建后，你需要通过实名认证才能解锁交易权限：</p>
-<ol>
-<li><strong>上传证件：</strong> 登录币安 App，进入个人中心点击“身份认证”，按照提示拍摄身份证或护照。</li>
-<li><strong>人脸识别：</strong> 在光线充足的地方，根据系统指示完成眨眼、点头等动作。</li>
-<li><strong>极速审核：</strong> 2026 年币安升级了 AI 审核引擎，认证通常在 <strong>5 分钟内</strong> 即可生效。</li>
-</ol>
-<hr>
-<h3 id="三-进阶福利老用户召回计划">
-  三、 进阶福利：老用户召回计划
-  <a class="anchor" href="#%e4%b8%89-%e8%bf%9b%e9%98%b6%e7%a6%8f%e5%88%a9%e8%80%81%e7%94%a8%e6%88%b7%e5%8f%ac%e5%9b%9e%e8%ae%a1%e5%88%92">#</a>
-</h3>
-<p>如果你以前注册过币安，但由于各种原因很久没用了，可以检查自己是否符合以下**“老用户回归福利”**（符合条件可享受永久 20% 返佣）：</p>
-        <a href="/posts/2026032526/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032525/">2026 币安（Binance）最新注册与交易终极指南（附专属福利）</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安binance最新注册与交易终极指南附专属福利">
-  2026 币安（Binance）最新注册与交易终极指南（附专属福利）
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89binance%e6%9c%80%e6%96%b0%e6%b3%a8%e5%86%8c%e4%b8%8e%e4%ba%a4%e6%98%93%e7%bb%88%e6%9e%81%e6%8c%87%e5%8d%97%e9%99%84%e4%b8%93%e5%b1%9e%e7%a6%8f%e5%88%a9">#</a>
-</h1>
-<p>随着加密货币市场的持续火热，越来越多的人开始配置数字资产。作为目前全球交易量最大、用户最多的加密货币交易平台，<strong>Binance（币安）</strong> 无疑是新手入场和老手交易的首选。</p>
-<p>本文将为您提供一份 2026 年最新、最完整的币安保姆级教程，从注册、身份认证到开始您的第一笔交易，完整步骤一次讲清！</p>
-<p>👉 <strong>新用户专属注册链接（享手续费减免等福利）：</strong></p>
-<ul>
-<li><strong>官方注册链接：</strong> <a href="https://www.binance.com/join?ref=UKNXKQAK">https://www.binance.com/join?ref=UKNXKQAK</a></li>
-<li><strong>专属邀请码：</strong> <strong><code>UKNXKQAK</code></strong></li>
-</ul>
-<hr>
-<h2 id="一-为什么选择币安交易所">
-  一、 为什么选择币安交易所？
-  <a class="anchor" href="#%e4%b8%80-%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9%e5%b8%81%e5%ae%89%e4%ba%a4%e6%98%93%e6%89%80">#</a>
-</h2>
-<p>在选择加密货币平台时，安全性、流动性和交易深度是核心考量指标。币安具备以下显著优势：</p>
-<ul>
-<li><strong>全球交易量霸主：</strong> 长期位居全球交易所交易量第一，拥有极高的市场流动性。</li>
-<li><strong>支持币种丰富：</strong> 支持 BTC（比特币）、ETH（以太坊）、USDT（泰达币）等上百种主流与潜力数字资产。</li>
-<li><strong>生态产品全面：</strong> 涵盖现货交易、合约交易、理财赚币、Launchpool（新币挖矿）以及便捷的 Web3 钱包。</li>
-<li><strong>顶级安全体系：</strong> 设立了 SAFU（用户安全资产基金）保障用户资金，并采用多重安全验证与冷钱包物理隔离存储，为您的资产保驾护航。</li>
-</ul>
-<hr>
-<h2 id="二-币安注册步骤2026-最新图文精简版">
-  二、 币安注册步骤（2026 最新图文精简版）
-  <a class="anchor" href="#%e4%ba%8c-%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e6%ad%a5%e9%aa%a42026-%e6%9c%80%e6%96%b0%e5%9b%be%e6%96%87%e7%b2%be%e7%ae%80%e7%89%88">#</a>
-</h2>
-<p>整个注册过程非常顺畅，只需几分钟即可完成。</p>
-<p><strong>第一步：进入官方注册页面</strong>
-点击下方官方邀请链接，直达注册界面：
-🔗 <a href="https://www.binance.com/join?ref=UKNXKQAK">https://www.binance.com/join?ref=UKNXKQAK</a></p>
-<p><strong>第二步：选择注册方式</strong>
-币安支持 <strong>手机号</strong> 或 <strong>邮箱</strong> 注册。为了更高的安全性和接收通知的便利性，强烈建议使用<strong>邮箱注册</strong>。</p>
-<ul>
-<li>输入您的常用邮箱地址。</li>
-<li>设置一个高强度的登录密码（建议包含大小写字母、数字及特殊符号）。</li>
-</ul>
-<p><strong>第三步：确认邀请码（关键福利）</strong>
-在注册界面的“邀请码”栏中，请确认已填写：<strong><code>UKNXKQAK</code></strong>
-<em>(注：如果您是通过上方的邀请链接点击进入的，该邀请码通常会自动填入。使用邀请码可享受系统发放的新用户福利及手续费优惠。)</em></p>
-<p><strong>第四步：安全验证</strong>
-系统会向您的注册邮箱发送一封包含验证码的邮件。将验证码填入网页，即可成功创建账户！</p>
-<hr>
-<h2 id="三-完成身份认证kyc">
-  三、 完成身份认证（KYC）
-  <a class="anchor" href="#%e4%b8%89-%e5%ae%8c%e6%88%90%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81kyc">#</a>
-</h2>
-<p>为了保障账户安全并符合全球监管要求，注册完成后必须进行 KYC（身份认证）才能进行充值和交易。</p>
-<ol>
-<li><strong>进入认证页面：</strong> 登录后，点击右上角的“账户中心”，选择“身份认证”。</li>
-<li><strong>准备证件：</strong> 根据系统提示，准备好您的身份证或护照。</li>
-<li><strong>上传与识别：</strong> 拍照上传证件的正反面，并按照页面提示开启摄像头进行简单的人脸识别。
-<em>(审核速度非常快，通常在 5 分钟内即可收到通过通知。)</em></li>
-</ol>
-<hr>
-<h2 id="四--隐藏福利老用户召回计划">
-  四、 💡 隐藏福利：老用户召回计划
-  <a class="anchor" href="#%e5%9b%9b--%e9%9a%90%e8%97%8f%e7%a6%8f%e5%88%a9%e8%80%81%e7%94%a8%e6%88%b7%e5%8f%ac%e5%9b%9e%e8%ae%a1%e5%88%92">#</a>
-</h2>
-<p>如果您之前注册过币安但很久没用了，别急着重新注册！只要您同时满足以下 <strong>三个条件</strong>，即可参加老用户召回计划，<strong>永久享受 20% 的手续费返佣</strong>：</p>
-        <a href="/posts/2026032525/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032504/">2026 币安（Binance）邀请码全攻略：注册前必看的防坑指南</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安binance邀请码全攻略注册前必看的防坑指南">
-  2026 币安（Binance）邀请码全攻略：注册前必看的防坑指南
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89binance%e9%82%80%e8%af%b7%e7%a0%81%e5%85%a8%e6%94%bb%e7%95%a5%e6%b3%a8%e5%86%8c%e5%89%8d%e5%bf%85%e7%9c%8b%e7%9a%84%e9%98%b2%e5%9d%91%e6%8c%87%e5%8d%97">#</a>
-</h1>
-<p>在使用币安（Binance）交易所时，第一步就会面临是否填写「推荐邀请码」的选择。许多人因为注册时忽略了这一步，导致后续无法弥补，白白损失了长期的交易手续费优惠。</p>
-<p>为了避免错失折扣，本篇为您汇整了币安邀请码的正确使用方式与重要注意事项，帮助您在注册前掌握必备资讯。（注：本文为机制教学，不构成投资建议）</p>
-<hr>
-<h3 id="币安邀请码最高可以省多少">
-  币安邀请码最高可以省多少？
-  <a class="anchor" href="#%e5%b8%81%e5%ae%89%e9%82%80%e8%af%b7%e7%a0%81%e6%9c%80%e9%ab%98%e5%8f%af%e4%bb%a5%e7%9c%81%e5%a4%9a%e5%b0%91">#</a>
-</h3>
-<p>币安的推荐优惠机制是固定的，全网最高的综合手续费折扣为 <strong>40%</strong>。其计算结构如下：</p>
-<ul>
-<li><strong>KOL 专属邀请码（20% 折扣）：</strong> 一般用户生成的邀请码最高只能提供 10% 的手续费返佣；但透过与币安深度合作的 KOL 或媒体连结注册（或手动输入如 <code>UKNXKQAK</code> 等专属码），即可享有 20% 的手续费折扣。</li>
-<li><strong>BNB 抵扣（额外 25% 折扣）：</strong> 在账户内开启使用 BNB（币安币）支付手续费的功能后，可在原有的基础上再享 25% 的折扣。</li>
-<li><strong>综合结果：</strong> 两者叠加后，实际支付的手续费约为原价的 60%，即达成 40% 的最高折扣。</li>
-</ul>
-<p>手续费看似微小，但在频繁交易的累积下是一笔可观的开销。使用高返佣比例的邀请码是终身绑定的优惠，注册时务必确认。</p>
-<h3 id="忘记输入邀请码怎么办老用户补填机制">
-  忘记输入邀请码怎么办？老用户补填机制
-  <a class="anchor" href="#%e5%bf%98%e8%ae%b0%e8%be%93%e5%85%a5%e9%82%80%e8%af%b7%e7%a0%81%e6%80%8e%e4%b9%88%e5%8a%9e%e8%80%81%e7%94%a8%e6%88%b7%e8%a1%a5%e5%a1%ab%e6%9c%ba%e5%88%b6">#</a>
-</h3>
-<p>如果您在官网直接注册，未填写任何邀请码，将需要全额支付手续费。币安对于一般常规账户<strong>不开放</strong>事后更换或补填邀请码。一旦绑定了低折扣（或无折扣）的邀请关系，该账号将永远无法更改。</p>
-<p>不过，针对特定老用户，币安设有<strong>老用户召回计划</strong>。只要您<strong>同时满足以下三个条件</strong>，即可重新登入账户补填邀请码，并<strong>永久享受 20% 的返佣</strong>：</p>
-<ol>
-<li>已经在币安注册账户。</li>
-<li>账户未曾绑定过其他推荐关系。</li>
-<li>账户近 180 天内未进行过任何交易。</li>
-</ol>
-<p>符合上述条件的用户，透过带邀请码的注册链接<a href="https://www.binance.com/zh-CN/join?ref=UKNXKQAK">https://www.binance.com/zh-CN/join?ref=UKNXKQAK</a>并登入后，即可触发补填机制，挽回最高的手续费优惠。</p>
-<h3 id="ptt--dcard-上的邀请码可以使用吗">
-  PTT / Dcard 上的邀请码可以使用吗？
-  <a class="anchor" href="#ptt--dcard-%e4%b8%8a%e7%9a%84%e9%82%80%e8%af%b7%e7%a0%81%e5%8f%af%e4%bb%a5%e4%bd%bf%e7%94%a8%e5%90%97">#</a>
-</h3>
-<p>在 PTT、Dcard 等社群论坛上，经常会有网友分享自己的邀请码。使用前需要特别注意该邀请码的<strong>返佣比例</strong>。</p>
-<p>由于一般用户的邀请码最多只能提供 10% 的优惠，除非发文者是币安的官方合作对象，否则使用这些邀请码，您的手续费折扣将直接缩水一半。建议在使用亲友或网友的连结前，务必确认对方提供的折扣额度是否为全网最高的 20%（未含 BNB 折扣前）。</p>
-<h3 id="常见问题解答">
-  常见问题解答
-  <a class="anchor" href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94">#</a>
-</h3>
-<ul>
-<li><strong>可以更改推荐人或邀请码吗？</strong>
-不行。币安的推荐关系一旦建立便永久生效，无法更改推荐人或替换邀请码。网络上有传言建议「重新申请一个新账户」，但此举可能触犯币安的使用规范，引发账号风控或违规风险，操作上需极为谨慎。</li>
-<li><strong>可以查询自己绑定了哪个推荐人吗？</strong>
-目前币安系统<strong>不开放</strong>用户自行查询推荐人资讯或已绑定的邀请码详情。因此，在按下注册按钮的当下，请务必再三确认是否已填入正确的最高优惠邀请码。</li>
-</ul>
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032502/">2026 币安邀请码全攻略：注册前必看，错过无法补填！</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-币安邀请码全攻略注册前必看错过无法补填">
-  2026 币安邀请码全攻略：注册前必看，错过无法补填！
-  <a class="anchor" href="#2026-%e5%b8%81%e5%ae%89%e9%82%80%e8%af%b7%e7%a0%81%e5%85%a8%e6%94%bb%e7%95%a5%e6%b3%a8%e5%86%8c%e5%89%8d%e5%bf%85%e7%9c%8b%e9%94%99%e8%bf%87%e6%97%a0%e6%b3%95%e8%a1%a5%e5%a1%ab">#</a>
-</h1>
-<p>在注册币安（Binance）时，最容易被忽视但也最重要的步骤就是填写<strong>推荐邀请码</strong>。很多人在完成实名认证（KYC）后才发现漏填或填错，导致永久错失手续费返还。为了避免遗憾，请在注册前务必了解以下规则。</p>
-<hr>
-<h2 id="-核心揭秘币安邀请码最高优惠是多少">
-  ## 核心揭秘：币安邀请码最高优惠是多少？
-  <a class="anchor" href="#-%e6%a0%b8%e5%bf%83%e6%8f%ad%e7%a7%98%e5%b8%81%e5%ae%89%e9%82%80%e8%af%b7%e7%a0%81%e6%9c%80%e9%ab%98%e4%bc%98%e6%83%a0%e6%98%af%e5%a4%9a%e5%b0%91">#</a>
-</h2>
-<p>网络上关于“40% 甚至 50% 折扣”的说法常让人困惑。其实，币安的优惠逻辑非常透明：</p>
-<ul>
-<li><strong>基础返佣（10% - 20%）：</strong> 一般用户生成的邀请码仅有 10% 返现。只有与币安有深度合作的 KOL 或媒体，才能提供最高 <strong>20%</strong> 的直接返现。</li>
-<li><strong>叠加 BNB 优惠（25%）：</strong> 在账户中持有并使用 BNB 支付手续费，可享 25% 减免。</li>
-<li><strong>最终效果：</strong> <strong>20% 邀请返现 + 25% BNB 抵扣 ≈ 40% 综合费率减免。</strong></li>
-</ul>
-<blockquote>
-<p><strong>💡 重点：</strong> 无论广告怎么写，<strong>20% 直接返佣</strong>就是币安开放给合作伙伴的最高等级。若链接未自动带入，可手动填入：<code>UKNXKQAK</code> 以确保享有全网最高待遇。</p>
-</blockquote>
-<hr>
-<h2 id="-错过邀请码怎么办唯一后悔药说明">
-  ## 错过邀请码怎么办？唯一“后悔药”说明
-  <a class="anchor" href="#-%e9%94%99%e8%bf%87%e9%82%80%e8%af%b7%e7%a0%81%e6%80%8e%e4%b9%88%e5%8a%9e%e5%94%af%e4%b8%80%e5%90%8e%e6%82%94%e8%8d%af%e8%af%b4%e6%98%8e">#</a>
-</h2>
-<p>币安原则上<strong>不支持</strong>注册后补填或更改推荐人。但针对特定“老用户”，目前有一项<strong>老用户召回计划</strong>，这是唯一的补救机会。</p>
-<h3 id="补填必须同时满足的-3-个条件">
-  <strong>补填必须同时满足的 3 个条件：</strong>
-  <a class="anchor" href="#%e8%a1%a5%e5%a1%ab%e5%bf%85%e9%a1%bb%e5%90%8c%e6%97%b6%e6%bb%a1%e8%b6%b3%e7%9a%84-3-%e4%b8%aa%e6%9d%a1%e4%bb%b6">#</a>
-</h3>
-<ol>
-<li><strong>已注册账户：</strong> 账号必须是已经存在的。</li>
-<li><strong>无绑定关系：</strong> 账户此前从未绑定过任何推荐人。</li>
-<li><strong>长期未交易：</strong> 账户在近 <strong>180 天内</strong>未进行过任何交易（且未使用过理财产品）。</li>
-</ol>
-<p>若满足上述条件，点击<a href="https://www.binance.com/join?ref=UKNXKQAK">币安注册链接</a>并登录，系统将提示你补填邀请码。<strong>若不满足以上条件，目前的规则是无法更改或重新绑定的。</strong></p>
-<hr>
-<h2 id="-避坑指南ptt-与-dcard-上的邀请码靠谱吗">
-  ## 避坑指南：PTT 与 Dcard 上的邀请码靠谱吗？
-  <a class="anchor" href="#-%e9%81%bf%e5%9d%91%e6%8c%87%e5%8d%97ptt-%e4%b8%8e-dcard-%e4%b8%8a%e7%9a%84%e9%82%80%e8%af%b7%e7%a0%81%e9%9d%a0%e8%b0%b1%e5%90%97">#</a>
-</h2>
-<p>在 PTT、Dcard 或 FB 社群找邀请码时，请务必甄别：</p>
-        <a href="/posts/2026032502/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/2026032512/">2026 年最新币安注册指南，助你快速、安全地开启交易</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-年最新币安注册指南助你快速安全地开启交易">
-  2026 年最新币安注册指南，助你快速、安全地开启交易
-  <a class="anchor" href="#2026-%e5%b9%b4%e6%9c%80%e6%96%b0%e5%b8%81%e5%ae%89%e6%b3%a8%e5%86%8c%e6%8c%87%e5%8d%97%e5%8a%a9%e4%bd%a0%e5%bf%ab%e9%80%9f%e5%ae%89%e5%85%a8%e5%9c%b0%e5%bc%80%e5%90%af%e4%ba%a4%e6%98%93">#</a>
-</h1>
-<h2 id="-准备工作选择你的注册路径">
-  🚀 准备工作：选择你的注册路径
-  <a class="anchor" href="#-%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c%e9%80%89%e6%8b%a9%e4%bd%a0%e7%9a%84%e6%b3%a8%e5%86%8c%e8%b7%af%e5%be%84">#</a>
-</h2>
-<p>币安支持多种灵活的注册方式，你可以根据自己的习惯选择：</p>
-<ul>
-<li><strong>传统方式：</strong> 电子邮箱 或 手机号码。</li>
-<li><strong>快捷方式：</strong> Apple 账户、谷歌 (Google) 账户 或 Telegram 账号一键关联。</li>
-</ul>
-<blockquote>
-<p><strong>💡 专属福利提示：</strong>
-使用下方官方链接或邀请码注册，可享受交易手续费优惠。
-<strong>注册链接：</strong> <a href="https://www.binance.com/join?ref=UKNXKQAK">点击此处前往币安官网</a>
-<strong>邀请码：</strong> <code>UKNXKQAK</code></p>
-</blockquote>
-<hr>
-<h2 id="-分步注册指南">
-  📝 分步注册指南
-  <a class="anchor" href="#-%e5%88%86%e6%ad%a5%e6%b3%a8%e5%86%8c%e6%8c%87%e5%8d%97">#</a>
-</h2>
-<h3 id="第一步访问官网并输入信息">
-  第一步：访问官网并输入信息
-  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%ae%bf%e9%97%ae%e5%ae%98%e7%bd%91%e5%b9%b6%e8%be%93%e5%85%a5%e4%bf%a1%e6%81%af">#</a>
-</h3>
-<p>前往 <a href="https://www.binance.com/join?ref=UKNXKQAK">币安官网首页</a>，在注册框中输入你的<strong>电子邮箱</strong>或<strong>手机号码</strong>，点击 <strong>【立即注册】</strong>。</p>
-<p>如果你偏好第三方登录，直接点击页面下方的 <strong>Apple、Google</strong> 或 <strong>Telegram</strong> 图标进行快捷关联。</p>
-<h3 id="第二步安全验证与密码设置">
-  第二步：安全验证与密码设置
-  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e4%b8%8e%e5%af%86%e7%a0%81%e8%ae%be%e7%bd%ae">#</a>
-</h3>
-<p>系统会发送验证码至你的邮箱或手机。输入验证码后，请设置一个高强度的密码（建议包含大写字母、数字和特殊符号）。</p>
-<h3 id="第三步完成身份认证-kyc">
-  第三步：完成身份认证 (KYC)
-  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%ae%8c%e6%88%90%e8%ba%ab%e4%bb%bd%e8%ae%a4%e8%af%81-kyc">#</a>
-</h3>
-<p>为了确保账户安全并解锁更多交易额度，注册完成后需根据提示完成实名认证。准备好你的身份证件（如身份证或护照），按照手机 App 的指示进行人脸识别即可。</p>
-<hr>
-<h2 id="-关键注意事项">
-  ⚠️ 关键注意事项
-  <a class="anchor" href="#-%e5%85%b3%e9%94%ae%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9">#</a>
-</h2>
-<p>在注册过程中，有两个细节请务必留意：</p>
-<h3 id="1-账户类型选择慎重">
-  1. 账户类型选择（慎重！）
-  <a class="anchor" href="#1-%e8%b4%a6%e6%88%b7%e7%b1%bb%e5%9e%8b%e9%80%89%e6%8b%a9%e6%85%8e%e9%87%8d">#</a>
-</h3>
-<p>在注册初始阶段，系统会询问你创建<strong>个人账户</strong>还是<strong>企业账户</strong>。</p>
-<ul>
-<li><strong>个人账户：</strong> 适用于绝大多数普通用户。</li>
-<li><strong>企业账户：</strong> 适用于以公司名义进行交易的用户。</li>
-</ul>
-<blockquote>
-<p><strong>请注意：</strong> 一旦注册成功，账户类型<strong>无法变更</strong>。如果你需要代表公司交易，请务必在注册时切换至“企业账户”选项卡。</p>
-</blockquote>
-<h3 id="2-启用双重身份验证-2fa">
-  2. 启用双重身份验证 (2FA)
-  <a class="anchor" href="#2-%e5%90%af%e7%94%a8%e5%8f%8c%e9%87%8d%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81-2fa">#</a>
-</h3>
-<p>为了保护你的资产安全，注册后的首要任务是开启 <strong>2FA</strong>。推荐使用以下方式：</p>
-        <a href="/posts/2026032512/">...</a>
-      
-    </p>
-  </article>
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/posts/20260325/">2026 新手必看：币安 (Binance) C2C 买币/卖币全流程指南</a>
-    </h2>
-    
-  <h5>2026-03-25</h5>
-
-
-
-  
-
-  
-  <div>
-    
-      <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>, 
-      <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-  </div>
-  
-
-
-
-
-    <p><h1 id="2026-新手必看币安-binance-c2c-买币卖币全流程指南">
-  2026 新手必看：币安 (Binance) C2C 买币/卖币全流程指南
-  <a class="anchor" href="#2026-%e6%96%b0%e6%89%8b%e5%bf%85%e7%9c%8b%e5%b8%81%e5%ae%89-binance-c2c-%e4%b9%b0%e5%b8%81%e5%8d%96%e5%b8%81%e5%85%a8%e6%b5%81%e7%a8%8b%e6%8c%87%e5%8d%97">#</a>
-</h1>
-<p>作为全球领先的加密货币交易所，币安拥有超过 2.4 亿用户。对于刚入场的新手，“如何买到第一笔数字货币”往往是最大的挑战。本文将为你拆解如何通过 <strong>C2C（个人对个人）</strong> 模式，利用微信、支付宝或银行卡轻松完成 USDT 的买卖。</p>
-<h2 id="第一步准备工作账号与福利">
-  第一步：准备工作（账号与福利）
-  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c%e8%b4%a6%e5%8f%b7%e4%b8%8e%e7%a6%8f%e5%88%a9">#</a>
-</h2>
-<p>在开始交易前，你首先需要一个币安账户。</p>
-<ul>
-<li><strong>注册福利：</strong> 点击<a href="https://www.binance.com/join?ref=UKNXKQAK">币安官方注册链接</a>（或使用邀请码 <strong>UKNXKQAK</strong>），注册即可永久享受 <strong>20% 的手续费减免</strong>。这对于长期交易者来说是一笔巨大的成本节省。</li>
-<li><strong>实名认证：</strong> 确保你已完成 KYC（身份认证），这是进行 C2C 交易的先决条件。</li>
-</ul>
-<hr>
-<h2 id="第二步入金篇如何购买-usdt">
-  第二步：入金篇——如何购买 USDT
-  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%85%a5%e9%87%91%e7%af%87%e5%a6%82%e4%bd%95%e8%b4%ad%e4%b9%b0-usdt">#</a>
-</h2>
-<p>USDT（泰达币）是加密市场的“硬通货”，价值锚定美元。新手通常先购买 USDT，再用它去兑换比特币（BTC）或以太坊（ETH）。</p>
-<h3 id="1-进入交易区">
-  1. 进入交易区
-  <a class="anchor" href="#1-%e8%bf%9b%e5%85%a5%e4%ba%a4%e6%98%93%e5%8c%ba">#</a>
-</h3>
-<p>登录币安 App，点击首页的**【添加资金】<strong>，选择</strong>【C2C 交易】**。</p>
-<h3 id="2-选择交易模式">
-  2. 选择交易模式
-  <a class="anchor" href="#2-%e9%80%89%e6%8b%a9%e4%ba%a4%e6%98%93%e6%a8%a1%e5%bc%8f">#</a>
-</h3>
-<p>你会看到三个区域：</p>
-<ul>
-<li><strong>快捷区：</strong> 系统自动匹配商家，适合小额、图省事的新手。</li>
-<li><strong>自选区：</strong> 手动挑选商家，可以看价格、评价和成交记录（推荐）。</li>
-<li><strong>大宗区：</strong> 针对大额交易（通常 5 万人民币以上）。</li>
-</ul>
-<h3 id="3-下单购买">
-  3. 下单购买
-  <a class="anchor" href="#3-%e4%b8%8b%e5%8d%95%e8%b4%ad%e4%b9%b0">#</a>
-</h3>
-<ul>
-<li>输入你想购买的金额（例如：1000 CNY）。</li>
-<li>选择支付方式（支付宝、微信或银行卡）。</li>
-<li><strong>筛选商家：</strong> 观察商家的<strong>成交量</strong>和<strong>成交率</strong>（建议选择成交率在 95% 以上的商家）。</li>
-<li>点击**【预览订单】**并确认。</li>
-</ul>
-<h3 id="4-付款与收币">
-  4. 付款与收币
-  <a class="anchor" href="#4-%e4%bb%98%e6%ac%be%e4%b8%8e%e6%94%b6%e5%b8%81">#</a>
-</h3>
-<ul>
-<li><strong>沟通：</strong> 订单生成后，通过聊天窗口确认商家要求（如：必须实名支付）。</li>
-<li><strong>转账：</strong> 离开币安 App，打开支付宝/微信，根据商家提供的收款信息进行转账。</li>
-<li><strong>确认：</strong> 转账完成后，回到币安点击**【我已付款，通知卖家】**。</li>
-<li><strong>到账：</strong> 商家确认收到款项后，USDT 会自动划转到你的“资金账户”。</li>
-</ul>
-<blockquote>
-<p><strong>⚠️ 安全提醒：</strong> 付款时严禁备注“比特币”、“加密货币”等敏感字眼，以免导致银行卡或账号被风控。</p>
-        <a href="/posts/20260325/">...</a>
-      
-    </p>
-  </article>
-  
 
   
     <ul class="pagination pagination-default">
@@ -1309,7 +1322,7 @@ https://github.com/alex-shpak/hugo-book
         <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/page/3/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/page/46/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/page/47/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
  
@@ -1364,12 +1377,12 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/%E5%B8%81%E5%AE%89/">币安</a>
-          <span>454</span>
+          <span>462</span>
         </li>
       
         <li class="flex justify-between">
           <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a>
-          <span>455</span>
+          <span>463</span>
         </li>
       
         <li class="flex justify-between">
