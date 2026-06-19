@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析
+  #
+
+很多人买了毕之后会设置止损，这是个好习惯。但我观察到一个现象：大部分黑家军兄弟只会设置最基础的那种，就是手动填个价格，然后每天盯着行情，涨了就手动改一下止损位。这样做不仅累，还容易因为情绪问题迟迟不动，等到真正该止损的时候反而拖着不改。
+其实现在大部分正规的加密货毕交易所（比如毕安），都已经支持更高级的止损类型了。今天黑大帅把三种常见的止损方式全部讲清楚，最后还会演示怎么在毕安上实际操作移动止损。
+毕安专属注册链接： https://www.binance.com/zh-CN/join?ref=BTC147
+专属邀请码： BTC147
+
+
+  止损到底有多重要？
+  #
+
+我们在买入一个标的的时候，肯定是看好它的，这很正常。但正因为这种「偏心」，很多人在行情往反方向走的时候，总是告诉自己「再等等」「马上就反弹了」，最后小亏变大亏，大亏变爆仓。
+止损单就像一个没有感情的保险机制。你提前设好规则，一旦触发，系统自动执行，不给你犹豫的机会。很多时候，巨大的损失不是因为判断错了，而是因为情感上舍不得止损。所以养成入场就设止损的习惯，是成为一个守纪律交易员的第一步。
+
+
+  市价止损（Stop Loss）是怎么运作的？
+  #
+
+市价止损是最基本、使用频率最高的止损类型。逻辑很简单：你设置一个触发价格，只要市场价格跌破这个数字，系统就会立刻以当前市价卖出你的持仓。
+举个例子。假设你以 100 美元买入了一个比特毕，设置了「跌破 80 美元就止损」的市价止损单。只要 BTC 价格击穿 80 美元，交易所会马上以市价帮你卖出。
+这个方法简单有效，适合大多数情况。但有一个需要特别注意的风险点：市价止损卖出的价格是当时的市场价，不是你设定的 80 美元。
+如果比特毕是慢慢跌的，80 美元触发后，市价成交可能在 79.5 美元，差距不大。但如果行情出现短时间剧烈下跌呢？比如从 100 美元在几分钟内暴跌到 70 美元，那你的止损单虽然在 80 美元触发了，但成交价可能是 70 美元，甚至更低。如果价格随后又反弹到 78 美元，你已经在 70 美元出局了，中间的损失本可避免。因此，市价止损更适合行情波动平稳的情况。
+
+
+  限价止损（Stop Limit）能帮你控制最大亏损
+  #
+
+限价止损和市价止损的核心区别在于：除了设置一个触发价格之外，你还需要额外设置一个卖出价格。这个卖出价格就是你能接受的最低成交价。
+还是以 100 美元买入比特毕为例。你设置：触发价格 80 美元，卖出价格 78 美元。当 BTC 价格跌破 80 美元，系统不会以市价卖，而是帮你挂出一个 78 美元的限价卖单。这样你最差也是以 78 美元成交，不会在暴跌中以更低的价格被砸出局。
+致命缺点： 如果价格一路跌过 78 美元，你的限价卖单就永远挂在那里成交不了。相当于止损单失效，你继续持有仓位，承受后续的全部损失。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://bnb1234.com/20260618/">
+  <meta property="og:site_name" content="BTCBA">
+  <meta property="og:title" content="毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析">
+  <meta property="og:description" content="毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析#很多人买了毕之后会设置止损，这是个好习惯。但我观察到一个现象：大部分黑家军兄弟只会设置最基础的那种，就是手动填个价格，然后每天盯着行情，涨了就手动改一下止损位。这样做不仅累，还容易因为情绪问题迟迟不动，等到真正该止损的时候反而拖着不改。
+其实现在大部分正规的加密货毕交易所（比如毕安），都已经支持更高级的止损类型了。今天黑大帅把三种常见的止损方式全部讲清楚，最后还会演示怎么在毕安上实际操作移动止损。
+毕安专属注册链接： https://www.binance.com/zh-CN/join?ref=BTC147 专属邀请码： BTC147
+止损到底有多重要？#我们在买入一个标的的时候，肯定是看好它的，这很正常。但正因为这种「偏心」，很多人在行情往反方向走的时候，总是告诉自己「再等等」「马上就反弹了」，最后小亏变大亏，大亏变爆仓。
+止损单就像一个没有感情的保险机制。你提前设好规则，一旦触发，系统自动执行，不给你犹豫的机会。很多时候，巨大的损失不是因为判断错了，而是因为情感上舍不得止损。所以养成入场就设止损的习惯，是成为一个守纪律交易员的第一步。
+市价止损（Stop Loss）是怎么运作的？#市价止损是最基本、使用频率最高的止损类型。逻辑很简单：你设置一个触发价格，只要市场价格跌破这个数字，系统就会立刻以当前市价卖出你的持仓。
+举个例子。假设你以 100 美元买入了一个比特毕，设置了「跌破 80 美元就止损」的市价止损单。只要 BTC 价格击穿 80 美元，交易所会马上以市价帮你卖出。
+这个方法简单有效，适合大多数情况。但有一个需要特别注意的风险点：市价止损卖出的价格是当时的市场价，不是你设定的 80 美元。
+如果比特毕是慢慢跌的，80 美元触发后，市价成交可能在 79.5 美元，差距不大。但如果行情出现短时间剧烈下跌呢？比如从 100 美元在几分钟内暴跌到 70 美元，那你的止损单虽然在 80 美元触发了，但成交价可能是 70 美元，甚至更低。如果价格随后又反弹到 78 美元，你已经在 70 美元出局了，中间的损失本可避免。因此，市价止损更适合行情波动平稳的情况。
+限价止损（Stop Limit）能帮你控制最大亏损#限价止损和市价止损的核心区别在于：除了设置一个触发价格之外，你还需要额外设置一个卖出价格。这个卖出价格就是你能接受的最低成交价。
+还是以 100 美元买入比特毕为例。你设置：触发价格 80 美元，卖出价格 78 美元。当 BTC 价格跌破 80 美元，系统不会以市价卖，而是帮你挂出一个 78 美元的限价卖单。这样你最差也是以 78 美元成交，不会在暴跌中以更低的价格被砸出局。
+致命缺点： 如果价格一路跌过 78 美元，你的限价卖单就永远挂在那里成交不了。相当于止损单失效，你继续持有仓位，承受后续的全部损失。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:tag" content="加密货币投资">
+    <meta property="article:tag" content="币安下载">
+    <meta property="article:tag" content="币安注册">
+    <meta property="article:tag" content="比特币">
+    <meta property="article:tag" content="Gate交易所">
+    <meta property="article:tag" content="美股">
+<title>毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析 | BTCBA</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://bnb1234.com/20260618/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.ef5bf857b9091875cf957b39ee3e994caf3bd443e42330ab8a6c98df09ae980c.js" integrity="sha256-71v4V7kJGHXPlXs57j6ZTK871EPkIzCrimyY3wmumAw=" crossorigin="anonymous"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-076TDWEBMQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-076TDWEBMQ');
+        }
+      </script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>BTCBA</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#止损到底有多重要">止损到底有多重要？</a></li>
+        <li><a href="#市价止损stop-loss是怎么运作的">市价止损（Stop Loss）是怎么运作的？</a></li>
+        <li><a href="#限价止损stop-limit能帮你控制最大亏损">限价止损（Stop Limit）能帮你控制最大亏损</a></li>
+        <li><a href="#以上两种止损的共同痛点需要手动调整">以上两种止损的共同痛点：需要手动调整</a></li>
+        <li><a href="#移动止损trailing-stop-loss的聪明机制">移动止损（Trailing Stop Loss）的聪明机制</a></li>
+        <li><a href="#毕安实操教学如何设置移动止损跟踪委托">毕安实操教学：如何设置移动止损（跟踪委托）？</a></li>
+        <li><a href="#三种止损方式怎么选">三种止损方式怎么选？</a></li>
+        <li><a href="#常见问题-faq">常见问题 (FAQ)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="毕圈交易必修课加密货毕止损怎么设置三种高级玩法全解析">
+  毕圈交易必修课：加密货毕止损怎么设置？三种高级玩法全解析
+  <a class="anchor" href="#%e6%af%95%e5%9c%88%e4%ba%a4%e6%98%93%e5%bf%85%e4%bf%ae%e8%af%be%e5%8a%a0%e5%af%86%e8%b4%a7%e6%af%95%e6%ad%a2%e6%8d%9f%e6%80%8e%e4%b9%88%e8%ae%be%e7%bd%ae%e4%b8%89%e7%a7%8d%e9%ab%98%e7%ba%a7%e7%8e%a9%e6%b3%95%e5%85%a8%e8%a7%a3%e6%9e%90">#</a>
+</h1>
+<p>很多人买了毕之后会设置止损，这是个好习惯。但我观察到一个现象：大部分黑家军兄弟只会设置最基础的那种，就是手动填个价格，然后每天盯着行情，涨了就手动改一下止损位。这样做不仅累，还容易因为情绪问题迟迟不动，等到真正该止损的时候反而拖着不改。</p>
+<p>其实现在大部分正规的加密货毕交易所（比如毕安），都已经支持更高级的止损类型了。今天黑大帅把三种常见的止损方式全部讲清楚，最后还会演示怎么在毕安上实际操作移动止损。</p>
+<p><strong>毕安专属注册链接：</strong> <a href="https://www.binance.com/zh-CN/join?ref=BTC147">https://www.binance.com/zh-CN/join?ref=BTC147</a>
+<strong>专属邀请码：</strong> <strong>BTC147</strong></p>
+<hr>
+<h3 id="止损到底有多重要">
+  止损到底有多重要？
+  <a class="anchor" href="#%e6%ad%a2%e6%8d%9f%e5%88%b0%e5%ba%95%e6%9c%89%e5%a4%9a%e9%87%8d%e8%a6%81">#</a>
+</h3>
+<p>我们在买入一个标的的时候，肯定是看好它的，这很正常。但正因为这种「偏心」，很多人在行情往反方向走的时候，总是告诉自己「再等等」「马上就反弹了」，最后小亏变大亏，大亏变爆仓。</p>
+<p>止损单就像一个没有感情的保险机制。你提前设好规则，一旦触发，系统自动执行，不给你犹豫的机会。很多时候，巨大的损失不是因为判断错了，而是因为情感上舍不得止损。所以养成入场就设止损的习惯，是成为一个守纪律交易员的第一步。</p>
+<hr>
+<h3 id="市价止损stop-loss是怎么运作的">
+  市价止损（Stop Loss）是怎么运作的？
+  <a class="anchor" href="#%e5%b8%82%e4%bb%b7%e6%ad%a2%e6%8d%9fstop-loss%e6%98%af%e6%80%8e%e4%b9%88%e8%bf%90%e4%bd%9c%e7%9a%84">#</a>
+</h3>
+<p>市价止损是最基本、使用频率最高的止损类型。逻辑很简单：你设置一个触发价格，只要市场价格跌破这个数字，系统就会立刻以当前市价卖出你的持仓。</p>
+<p>举个例子。假设你以 100 美元买入了一个比特毕，设置了「跌破 80 美元就止损」的市价止损单。只要 BTC 价格击穿 80 美元，交易所会马上以市价帮你卖出。</p>
+<p>这个方法简单有效，适合大多数情况。但有一个需要特别注意的风险点：<strong>市价止损卖出的价格是当时的市场价，不是你设定的 80 美元。</strong></p>
+<p>如果比特毕是慢慢跌的，80 美元触发后，市价成交可能在 79.5 美元，差距不大。但如果行情出现短时间剧烈下跌呢？比如从 100 美元在几分钟内暴跌到 70 美元，那你的止损单虽然在 80 美元触发了，但成交价可能是 70 美元，甚至更低。如果价格随后又反弹到 78 美元，你已经在 70 美元出局了，中间的损失本可避免。因此，市价止损更适合行情波动平稳的情况。</p>
+<hr>
+<h3 id="限价止损stop-limit能帮你控制最大亏损">
+  限价止损（Stop Limit）能帮你控制最大亏损
+  <a class="anchor" href="#%e9%99%90%e4%bb%b7%e6%ad%a2%e6%8d%9fstop-limit%e8%83%bd%e5%b8%ae%e4%bd%a0%e6%8e%a7%e5%88%b6%e6%9c%80%e5%a4%a7%e4%ba%8f%e6%8d%9f">#</a>
+</h3>
+<p>限价止损和市价止损的核心区别在于：除了设置一个触发价格之外，你还需要额外设置一个卖出价格。这个卖出价格就是你能接受的最低成交价。</p>
+<p>还是以 100 美元买入比特毕为例。你设置：触发价格 80 美元，卖出价格 78 美元。当 BTC 价格跌破 80 美元，系统不会以市价卖，而是帮你挂出一个 78 美元的限价卖单。这样你最差也是以 78 美元成交，不会在暴跌中以更低的价格被砸出局。</p>
+<p><strong>致命缺点：</strong> 如果价格一路跌过 78 美元，你的限价卖单就永远挂在那里成交不了。相当于止损单失效，你继续持有仓位，承受后续的全部损失。</p>
+<p>所以如果你要用限价止损，卖出价格不要设置得太靠近触发价格，要给足够的空间，否则一旦价格快速穿越，限价单根本来不及成交。</p>
+<hr>
+<h3 id="以上两种止损的共同痛点需要手动调整">
+  以上两种止损的共同痛点：需要手动调整
+  <a class="anchor" href="#%e4%bb%a5%e4%b8%8a%e4%b8%a4%e7%a7%8d%e6%ad%a2%e6%8d%9f%e7%9a%84%e5%85%b1%e5%90%8c%e7%97%9b%e7%82%b9%e9%9c%80%e8%a6%81%e6%89%8b%e5%8a%a8%e8%b0%83%e6%95%b4">#</a>
+</h3>
+<p>市价止损和限价止损都有一个让人头疼的问题：止损价格是固定的，需要手动更新。</p>
+<p>比如你以 100 美元买入，设了 80 美元止损。结果行情不错，涨到了 200 美元。这时候你的止损价格还是 80 美元，就算触发了，你也亏了一大半，这个止损单基本上已经没有保护意义了。</p>
+<p>以前的做法是隔几天就去手动改一次止损价格，跟着行情往上移。费时费力不说，还容易忘记。好消息是，你不需要再这么麻烦了，因为有第三种更聪明的方式。</p>
+<hr>
+<h3 id="移动止损trailing-stop-loss的聪明机制">
+  移动止损（Trailing Stop Loss）的聪明机制
+  <a class="anchor" href="#%e7%a7%bb%e5%8a%a8%e6%ad%a2%e6%8d%9ftrailing-stop-loss%e7%9a%84%e8%81%aa%e6%98%8e%e6%9c%ba%e5%88%b6">#</a>
+</h3>
+<p>移动止损，也叫追踪止损，是三种里面最聪明的一种。你不需要设置一个固定的止损价格，而是设置一个移动追踪的数额（或百分比），系统会根据这个数额自动跟随价格移动止损位。</p>
+<p>以买入为例，假设你以 100 美元买入，设置移动追踪数额为 20 美元：</p>
+<ul>
+<li><strong>初始止损价：</strong> 100 - 20 = 80 美元</li>
+<li>如果买入后立刻下跌，跌破 80 美元，直接以市价止损出场。</li>
+<li>如果价格涨到 120 美元，止损价自动上移到：120 - 20 = 100 美元。</li>
+<li>如果价格继续涨到 140 美元，止损价自动上移到：140 - 20 = 120 美元。</li>
+<li>如果价格从 140 跌回，跌破 120 美元，系统自动以市价卖出。</li>
+</ul>
+<p>全程不需要你手动操作任何东西，彻底解放双手。</p>
+<h4 id="移动止损的两大关键规则">
+  移动止损的两大关键规则：
+  <a class="anchor" href="#%e7%a7%bb%e5%8a%a8%e6%ad%a2%e6%8d%9f%e7%9a%84%e4%b8%a4%e5%a4%a7%e5%85%b3%e9%94%ae%e8%a7%84%e5%88%99">#</a>
+</h4>
+<ol>
+<li><strong>单方向移动：</strong> 如果你是做多（买入），止损价只会跟着价格上涨而上涨，不会跟着价格下跌而下跌。涨到 120 刀，止损上移到 100 刀；跌回 110 刀时，止损价停在 100 刀不动。做空逻辑则完全相反。</li>
+<li><strong>数额与百分比：</strong> 移动追踪的幅度可以设置成固定金额，也可以设置成百分比（比如 5%），两者效果一样，看个人习惯选择。</li>
+</ol>
+<h4 id="最大优势自动锁定利润">
+  最大优势：自动锁定利润
+  <a class="anchor" href="#%e6%9c%80%e5%a4%a7%e4%bc%98%e5%8a%bf%e8%87%aa%e5%8a%a8%e9%94%81%e5%ae%9a%e5%88%a9%e6%b6%a6">#</a>
+</h4>
+<p>移动止损不仅是止损工具，更是自动锁单利器。当止损价从 80 美元移动到 100 美元时，意味着即使行情反转，你至少也能在 100 美元出场，锁定了 20 美元的盈利。这对于短线交易极其友好，涨得差不多了价格一回调自动止盈出场，根本不需要时刻盯盘。</p>
+<hr>
+<h3 id="毕安实操教学如何设置移动止损跟踪委托">
+  毕安实操教学：如何设置移动止损（跟踪委托）？
+  <a class="anchor" href="#%e6%af%95%e5%ae%89%e5%ae%9e%e6%93%8d%e6%95%99%e5%ad%a6%e5%a6%82%e4%bd%95%e8%ae%be%e7%bd%ae%e7%a7%bb%e5%8a%a8%e6%ad%a2%e6%8d%9f%e8%b7%9f%e8%b8%aa%e5%a7%94%e6%89%98">#</a>
+</h3>
+<p>在毕安，移动止损叫做「跟踪委托」，入口在下单界面里。还没注册的兄弟，抓紧通过下方专属链接上车：</p>
+<p><strong>毕安专属注册链接：</strong> <a href="https://www.binance.com/zh-CN/join?ref=BTC147">https://www.binance.com/zh-CN/join?ref=BTC147</a>
+<strong>邀请码：</strong> <strong>BTC147</strong></p>
+<p><strong>具体操作步骤：</strong></p>
+<ol>
+<li>打开毕安 APP，进入你要交易的毕对页面。</li>
+<li>在下单区域，找到限价单旁边的下拉菜单，选择「跟踪委托」。</li>
+<li>填写「激活价格」：这是触发跟踪委托的价格条件。比如填 18000，当价格达到 18000 时，跟踪委托才开始生效启动。（新手最容易在这里搞混，以为是止损触发价，其实它是启动追踪的门槛价）。</li>
+<li>填写「回调比例」：比如选择 5%，意思是从最高价回调 5% 时触发卖出。</li>
+<li>填写你要平仓的数量，可以选择填 BTC 数量或者 USDT 金额，比如买入 1 个 BTC。</li>
+<li>点击买入或卖出，委托单就挂出去了！建议新手先在小仓位上测试一次再上大仓。</li>
+</ol>
+<hr>
+<h3 id="三种止损方式怎么选">
+  三种止损方式怎么选？
+  <a class="anchor" href="#%e4%b8%89%e7%a7%8d%e6%ad%a2%e6%8d%9f%e6%96%b9%e5%bc%8f%e6%80%8e%e4%b9%88%e9%80%89">#</a>
+</h3>
+<p>简单做个对比，方便大家根据自己的情况选择：</p>
+<ul>
+<li><strong>市价止损（Stop Loss）：</strong> 设置简单，保证成交但不保证价格。适合行情波动不剧烈的情况，或者你希望确保一定能出场的场景。</li>
+<li><strong>限价止损（Stop Limit）：</strong> 控制最差成交价格，但存在无法成交的风险。适合对成交价格有严格要求、且预留了足够价差区间的交易者。</li>
+<li><strong>移动止损（Trailing Stop Loss）：</strong> 止损价自动跟随价格上移，不需要手动调整，还能自动锁定利润。适合大多数人，尤其是短线交易员和不想每天盯盘的用户。</li>
+</ul>
+<p>不管选哪种，最重要的是入场的时候就设好止损，坚决拒绝裸奔！同时，在出金操作时也务必做好防冻卡措施，保障本金安全。</p>
+<hr>
+<h3 id="常见问题-faq">
+  常见问题 (FAQ)
+  <a class="anchor" href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98-faq">#</a>
+</h3>
+<p><strong>Q：移动止损会在价格下跌时自动降低止损价吗？</strong>
+不会。如果你做多，止损价只跟随价格上涨而上涨，一旦价格开始下跌，止损价会停在最高点对应的位置不动，等着价格跌到触发线再执行卖出。它不会因为价格回调就跟着降低，否则就失去了保护意义。</p>
+<p><strong>Q：设置移动止损时，追踪幅度设多少比较合适？</strong>
+取决于毕种的波动性。波动性大的（比如山寨毕）可以设大一点，比如 8%-15%，否则正常波动就会频繁触发止损。波动性小的或是主流毕，可以设小一点，比如 3%-5%。短线操作一般设小一点，趋势单可以设大一点给行情喘息的空间。</p>
+<p><strong>Q：限价止损的卖出价格和触发价格差多少合适？</strong>
+通常的做法是，在触发价格下方留出 1%-3% 的空间作为卖出价格。但如果你交易的是流动性差的小毕，这个空间要更大一些。本质上是在「控制亏损幅度」和「保证成交」之间做取舍。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#止损到底有多重要">止损到底有多重要？</a></li>
+        <li><a href="#市价止损stop-loss是怎么运作的">市价止损（Stop Loss）是怎么运作的？</a></li>
+        <li><a href="#限价止损stop-limit能帮你控制最大亏损">限价止损（Stop Limit）能帮你控制最大亏损</a></li>
+        <li><a href="#以上两种止损的共同痛点需要手动调整">以上两种止损的共同痛点：需要手动调整</a></li>
+        <li><a href="#移动止损trailing-stop-loss的聪明机制">移动止损（Trailing Stop Loss）的聪明机制</a></li>
+        <li><a href="#毕安实操教学如何设置移动止损跟踪委托">毕安实操教学：如何设置移动止损（跟踪委托）？</a></li>
+        <li><a href="#三种止损方式怎么选">三种止损方式怎么选？</a></li>
+        <li><a href="#常见问题-faq">常见问题 (FAQ)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

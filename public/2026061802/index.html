@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解
+  #
+
+资金费率套利是非常经典的低风险市场中性策略。但在过去，手动分别在现货和合约开单，不仅繁琐还容易因为时间差产生滑点损失。欧易（OKX）提供的「套利下单」工具，可以一键同步完成永续合约和现货杠杆的“双腿下单”，极大地简化了流程。
+以下为你完整拆解该工具的操作逻辑与具体步骤。
+欧易 20% 手续费永久减免专属注册链接： https://okx.com/join/1912474（利用减免可有效降低套利过程中的开平仓磨损，提升净利润）。
+
+
+  一、 套利下单入口在哪里找？
+  #
+
+在欧易 Web 端（网页版）进行操作，入口路径如下：
+
+打开欧易官方网站，在顶部导航栏点击「交易」。
+在下拉菜单中选择「合约杠杆交易」，随后点击「永续合约」进入交易页面。
+
+
+
+在页面左上角，找到模式切换选项，将其从“手动交易模式”切换为「策略交易模式」。
+页面向下滑动，在“策略选择”区域找到并点击「套利下单」即可进入核心模块。
+
+
+
+  二、 怎么选标的与核心逻辑解析
+  #
+
+进入套利下单模块后，点击当前的标的名称会弹出菜单栏，这里分为「费率套利」和「价差套利」（期现套利）。我们选择「费率套利」。
+
+  1. 寻找最高收益
+  #
+
+进入费率套利界面后，点击「参考年化」表头进行降序排列，把收益率最高的标的排到最上面。
+
+  2. 理解负费率的套利逻辑
+  #
+
+假设排名第一的标的当前资金费率是 -0.091%，下期预测费率是 -0.13%。
+
+资金费率为负： 代表市场上做空的人更多，做空方需要向做多方支付利息。
+如何吃息： 想要“收钱”，就必须在永续合约里开多。
+如何对冲： 永续合约开多后会面临单边下跌的风险，因此必须在现货市场做空来对冲。由于现货不能直接做空，需要使用「现货杠杆」，即借入该代币并卖出。
+
+
+
+  三、 参数设置与一键下单（以 CRO 为例）
+  #
+
+假设选择高收益的 CRO 代币进行套利，具体的“双腿”参数设置如下：
+
+右腿（永续合约）： 因为费率为负，系统会自动设定为买入开多永续合约（例如全仓 3 倍杠杆）。
+左腿（现货杠杆）： 选择杠杆账户，搜索 CRO/USDT。最大支持 5 倍杠杆，建议与合约保持一致（如 3 倍杠杆）。操作方向为借入 CRO 后卖出。
+价格类型： 强烈建议选择「市价」。如果是限价单，由于行情波动，很容易出现一条腿成交、另一条腿未成交的情况，从而暴露在单边风险中。系统通常会显示 0.28% 到 0.4% 的价差率，这个市价滑点在套利中属于可接受范围。
+投入金额： 套利交易通常以 USDT 为本位。勾选「同金额」，填入你的总投入金额（例如 200 USDT），系统会让两条腿各自按 200U 的等值去下单，保持仓位绝对平衡。
+
+设置完毕后，点击「双腿下单」。">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://bnb1234.com/2026061802/">
+  <meta property="og:site_name" content="BTCBA">
+  <meta property="og:title" content="欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解">
+  <meta property="og:description" content="欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解#资金费率套利是非常经典的低风险市场中性策略。但在过去，手动分别在现货和合约开单，不仅繁琐还容易因为时间差产生滑点损失。欧易（OKX）提供的「套利下单」工具，可以一键同步完成永续合约和现货杠杆的“双腿下单”，极大地简化了流程。
+以下为你完整拆解该工具的操作逻辑与具体步骤。
+欧易 20% 手续费永久减免专属注册链接： https://okx.com/join/1912474（利用减免可有效降低套利过程中的开平仓磨损，提升净利润）。
+一、 套利下单入口在哪里找？#在欧易 Web 端（网页版）进行操作，入口路径如下：
+打开欧易官方网站，在顶部导航栏点击「交易」。 在下拉菜单中选择「合约杠杆交易」，随后点击「永续合约」进入交易页面。 在页面左上角，找到模式切换选项，将其从“手动交易模式”切换为「策略交易模式」。 页面向下滑动，在“策略选择”区域找到并点击「套利下单」即可进入核心模块。 二、 怎么选标的与核心逻辑解析#进入套利下单模块后，点击当前的标的名称会弹出菜单栏，这里分为「费率套利」和「价差套利」（期现套利）。我们选择「费率套利」。
+1. 寻找最高收益#进入费率套利界面后，点击「参考年化」表头进行降序排列，把收益率最高的标的排到最上面。
+2. 理解负费率的套利逻辑#假设排名第一的标的当前资金费率是 -0.091%，下期预测费率是 -0.13%。
+资金费率为负： 代表市场上做空的人更多，做空方需要向做多方支付利息。 如何吃息： 想要“收钱”，就必须在永续合约里开多。 如何对冲： 永续合约开多后会面临单边下跌的风险，因此必须在现货市场做空来对冲。由于现货不能直接做空，需要使用「现货杠杆」，即借入该代币并卖出。 三、 参数设置与一键下单（以 CRO 为例）#假设选择高收益的 CRO 代币进行套利，具体的“双腿”参数设置如下：
+右腿（永续合约）： 因为费率为负，系统会自动设定为买入开多永续合约（例如全仓 3 倍杠杆）。 左腿（现货杠杆）： 选择杠杆账户，搜索 CRO/USDT。最大支持 5 倍杠杆，建议与合约保持一致（如 3 倍杠杆）。操作方向为借入 CRO 后卖出。 价格类型： 强烈建议选择「市价」。如果是限价单，由于行情波动，很容易出现一条腿成交、另一条腿未成交的情况，从而暴露在单边风险中。系统通常会显示 0.28% 到 0.4% 的价差率，这个市价滑点在套利中属于可接受范围。 投入金额： 套利交易通常以 USDT 为本位。勾选「同金额」，填入你的总投入金额（例如 200 USDT），系统会让两条腿各自按 200U 的等值去下单，保持仓位绝对平衡。 设置完毕后，点击「双腿下单」。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:tag" content="加密货币投资">
+    <meta property="article:tag" content="币安下载">
+    <meta property="article:tag" content="欧易注册">
+    <meta property="article:tag" content="比特币">
+    <meta property="article:tag" content="Gate交易所">
+    <meta property="article:tag" content="美股">
+<title>欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解 | BTCBA</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://bnb1234.com/2026061802/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.ef5bf857b9091875cf957b39ee3e994caf3bd443e42330ab8a6c98df09ae980c.js" integrity="sha256-71v4V7kJGHXPlXs57j6ZTK871EPkIzCrimyY3wmumAw=" crossorigin="anonymous"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-076TDWEBMQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-076TDWEBMQ');
+        }
+      </script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>BTCBA</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#一-套利下单入口在哪里找">一、 套利下单入口在哪里找？</a></li>
+        <li><a href="#二-怎么选标的与核心逻辑解析">二、 怎么选标的与核心逻辑解析</a></li>
+        <li><a href="#三-参数设置与一键下单以-cro-为例">三、 参数设置与一键下单（以 CRO 为例）</a></li>
+        <li><a href="#四-仓位状态与收益计算">四、 仓位状态与收益计算</a></li>
+        <li><a href="#五-如何平仓与还币">五、 如何平仓与还币？</a></li>
+        <li><a href="#六-常见问题解答-faq">六、 常见问题解答 (FAQ)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="欧易-okx-资金费率套利实操指南一键双腿下单玩法详解">
+  欧易 OKX 资金费率套利实操指南：一键双腿下单玩法详解
+  <a class="anchor" href="#%e6%ac%a7%e6%98%93-okx-%e8%b5%84%e9%87%91%e8%b4%b9%e7%8e%87%e5%a5%97%e5%88%a9%e5%ae%9e%e6%93%8d%e6%8c%87%e5%8d%97%e4%b8%80%e9%94%ae%e5%8f%8c%e8%85%bf%e4%b8%8b%e5%8d%95%e7%8e%a9%e6%b3%95%e8%af%a6%e8%a7%a3">#</a>
+</h1>
+<p>资金费率套利是非常经典的低风险市场中性策略。但在过去，手动分别在现货和合约开单，不仅繁琐还容易因为时间差产生滑点损失。欧易（OKX）提供的「套利下单」工具，可以一键同步完成永续合约和现货杠杆的“双腿下单”，极大地简化了流程。</p>
+<p>以下为你完整拆解该工具的操作逻辑与具体步骤。</p>
+<p><strong>欧易 20% 手续费永久减免专属注册链接：</strong> <a href="https://okx.com/join/1912474">https://okx.com/join/1912474</a>（利用减免可有效降低套利过程中的开平仓磨损，提升净利润）。</p>
+<hr>
+<h3 id="一-套利下单入口在哪里找">
+  一、 套利下单入口在哪里找？
+  <a class="anchor" href="#%e4%b8%80-%e5%a5%97%e5%88%a9%e4%b8%8b%e5%8d%95%e5%85%a5%e5%8f%a3%e5%9c%a8%e5%93%aa%e9%87%8c%e6%89%be">#</a>
+</h3>
+<p>在欧易 Web 端（网页版）进行操作，入口路径如下：</p>
+<ol>
+<li>打开欧易官方网站，在顶部导航栏点击「交易」。</li>
+<li>在下拉菜单中选择「合约杠杆交易」<strong>，随后点击</strong>「永续合约」进入交易页面。</li>
+</ol>
+<p><img src="https://i.mji.rip/2026/06/18/6a0bd4380b041dc9ce56849c438d2b1b.png" alt="图片alt" title="图片title"/></p>
+<ol start="3">
+<li>在页面左上角，找到模式切换选项，将其从“手动交易模式”切换为「策略交易模式」。</li>
+<li>页面向下滑动，在“策略选择”区域找到并点击「套利下单」即可进入核心模块。</li>
+</ol>
+<hr>
+<h3 id="二-怎么选标的与核心逻辑解析">
+  二、 怎么选标的与核心逻辑解析
+  <a class="anchor" href="#%e4%ba%8c-%e6%80%8e%e4%b9%88%e9%80%89%e6%a0%87%e7%9a%84%e4%b8%8e%e6%a0%b8%e5%bf%83%e9%80%bb%e8%be%91%e8%a7%a3%e6%9e%90">#</a>
+</h3>
+<p>进入套利下单模块后，点击当前的标的名称会弹出菜单栏，这里分为「费率套利」<strong>和</strong>「价差套利」<strong>（期现套利）。我们选择</strong>「费率套利」。</p>
+<h4 id="1-寻找最高收益">
+  1. 寻找最高收益
+  <a class="anchor" href="#1-%e5%af%bb%e6%89%be%e6%9c%80%e9%ab%98%e6%94%b6%e7%9b%8a">#</a>
+</h4>
+<p>进入费率套利界面后，点击「参考年化」<strong>表头进行</strong>降序排列，把收益率最高的标的排到最上面。</p>
+<h4 id="2-理解负费率的套利逻辑">
+  2. 理解负费率的套利逻辑
+  <a class="anchor" href="#2-%e7%90%86%e8%a7%a3%e8%b4%9f%e8%b4%b9%e7%8e%87%e7%9a%84%e5%a5%97%e5%88%a9%e9%80%bb%e8%be%91">#</a>
+</h4>
+<p>假设排名第一的标的当前资金费率是 <strong>-0.091%</strong>，下期预测费率是 <strong>-0.13%</strong>。</p>
+<ul>
+<li><strong>资金费率为负：</strong> 代表市场上做空的人更多，做空方需要向做多方支付利息。</li>
+<li><strong>如何吃息：</strong> 想要“收钱”，就必须在永续合约里<strong>开多</strong>。</li>
+<li><strong>如何对冲：</strong> 永续合约开多后会面临单边下跌的风险，因此必须在现货市场<strong>做空</strong>来对冲。由于现货不能直接做空，需要使用「现货杠杆」，即借入该代币并卖出。</li>
+</ul>
+<hr>
+<h3 id="三-参数设置与一键下单以-cro-为例">
+  三、 参数设置与一键下单（以 CRO 为例）
+  <a class="anchor" href="#%e4%b8%89-%e5%8f%82%e6%95%b0%e8%ae%be%e7%bd%ae%e4%b8%8e%e4%b8%80%e9%94%ae%e4%b8%8b%e5%8d%95%e4%bb%a5-cro-%e4%b8%ba%e4%be%8b">#</a>
+</h3>
+<p>假设选择高收益的 CRO 代币进行套利，具体的“双腿”参数设置如下：</p>
+<ul>
+<li><strong>右腿（永续合约）：</strong> 因为费率为负，系统会自动设定为买入开多永续合约（例如全仓 3 倍杠杆）。</li>
+<li><strong>左腿（现货杠杆）：</strong> 选择杠杆账户，搜索 <code>CRO/USDT</code>。最大支持 5 倍杠杆，建议与合约保持一致（如 3 倍杠杆）。操作方向为借入 CRO 后卖出。</li>
+<li><strong>价格类型：</strong> 强烈建议选择「市价」。如果是限价单，由于行情波动，很容易出现一条腿成交、另一条腿未成交的情况，从而暴露在单边风险中。系统通常会显示 0.28% 到 0.4% 的价差率，这个市价滑点在套利中属于可接受范围。</li>
+<li><strong>投入金额：</strong> 套利交易通常以 USDT 为本位。勾选「同金额」，填入你的总投入金额（例如 200 USDT），系统会让两条腿各自按 200U 的等值去下单，保持仓位绝对平衡。</li>
+</ul>
+<p>设置完毕后，点击「双腿下单」。</p>
+<hr>
+<h3 id="四-仓位状态与收益计算">
+  四、 仓位状态与收益计算
+  <a class="anchor" href="#%e5%9b%9b-%e4%bb%93%e4%bd%8d%e7%8a%b6%e6%80%81%e4%b8%8e%e6%94%b6%e7%9b%8a%e8%ae%a1%e7%ae%97">#</a>
+</h3>
+<p>下单成功后，系统已自动完成两件事：</p>
+<ol>
+<li>现货杠杆账户借入并卖出了等值 200U 的 CRO。</li>
+<li>永续合约账户开多了等值 200U 的 CRO。</li>
+</ol>
+<p>此时，你的整体方向性风险（Delta）趋近于 0。无论币价涨跌，一边的盈利和另一边的亏损会完全抵消，你的净收益只来自资金费率利息。</p>
+<blockquote>
+<p><strong>强烈建议：</strong> 开启欧易的**「组合保证金」**模式。开启后，系统会将现货空头和合约多头视为对冲仓位，不仅大幅降低保证金占用，还能让爆仓风险降至极低。</p>
+</blockquote>
+<h4 id="收益是如何计算的">
+  收益是如何计算的？
+  <a class="anchor" href="#%e6%94%b6%e7%9b%8a%e6%98%af%e5%a6%82%e4%bd%95%e8%ae%a1%e7%ae%97%e7%9a%84">#</a>
+</h4>
+<p>资金费率每 8 小时结算一次。公式如下：
+<strong>净收益 = (持仓价值 × 当期资金费率) - 开平仓手续费 - 现货杠杆借币利息</strong></p>
+<p><em>例子：持仓 199 USDT，资金费率 0.091%，单期利息约为 199 × 0.091% ≈ 0.18 USDT。虽然单笔看似不多，但在复利和高年化标的的加持下，长期收益十分可观。</em></p>
+<hr>
+<h3 id="五-如何平仓与还币">
+  五、 如何平仓与还币？
+  <a class="anchor" href="#%e4%ba%94-%e5%a6%82%e4%bd%95%e5%b9%b3%e4%bb%93%e4%b8%8e%e8%bf%98%e5%b8%81">#</a>
+</h3>
+<p>当标的的资金费率下降，年化不再具有吸引力时，撤出策略的操作非常简单，且不需要手动还币：</p>
+<ol>
+<li>在永续合约持仓列表中，直接市价<strong>全平多单</strong>。</li>
+<li>在现货杠杆持仓列表中，市价<strong>全平空单</strong>（即买回代币）。</li>
+<li><strong>自动还币：</strong> 平仓完成后，欧易系统会自动将买回的代币用于偿还杠杆借款，无需人工干预。</li>
+</ol>
+<hr>
+<h3 id="六-常见问题解答-faq">
+  六、 常见问题解答 (FAQ)
+  <a class="anchor" href="#%e5%85%ad-%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94-faq">#</a>
+</h3>
+<p><strong>Q：资金费率是负数，为什么要开多而不是开空来套利？</strong>
+资金费率为负时，代表空头向多头支付利息。你要想获得利息收入，就必须站在“多头”这一边，因此必须在永续合约开多。如果开空，你反而成了支付利息的一方。</p>
+<p><strong>Q：如果开仓之后资金费率突然由负转正了怎么办？</strong>
+费率会随着市场多空情绪实时变化。如果原本是负费率（你开了多单），但在结算前费率变成了正数，那一期你反而需要支付利息。
+<strong>对策：</strong> 每天看一眼“下一期预测费率”，如果发现费率即将反转，建议在当前这期结算后、下期结算前提前平仓，或者换一个费率更稳定的标的。</p>
+<p><strong>Q：现货杠杆借币的利息会不会把资金费率收益全吃掉？</strong>
+这取决于借币利率和资金费率的差值。通常情况下，当资金费率参考年化超过 30% 以上时，借币利率（通常在年化 10%-20% 之间）是完全可以被覆盖的。如果标的的资金费率年化跌破了 20%，借币利息加手续费可能会导致亏损，这时候就应该果断平仓换标的。</p>
+<p><strong>Q：这个策略需要每天花多少时间盯盘？</strong>
+资金费率套利是市场中性策略，不依赖行情涨跌，因此不需要时刻盯盘。一个成熟的习惯是：每天查看一次费率套利列表，发现年化高于 50% 的标的考虑进场，持仓标的年化跌破 20% 时果断撤出。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#一-套利下单入口在哪里找">一、 套利下单入口在哪里找？</a></li>
+        <li><a href="#二-怎么选标的与核心逻辑解析">二、 怎么选标的与核心逻辑解析</a></li>
+        <li><a href="#三-参数设置与一键下单以-cro-为例">三、 参数设置与一键下单（以 CRO 为例）</a></li>
+        <li><a href="#四-仓位状态与收益计算">四、 仓位状态与收益计算</a></li>
+        <li><a href="#五-如何平仓与还币">五、 如何平仓与还币？</a></li>
+        <li><a href="#六-常见问题解答-faq">六、 常见问题解答 (FAQ)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

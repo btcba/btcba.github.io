@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利）
+  #
+
+在熊市或者震荡市里，如果你不想冒着爆仓的风险“裸多”或“裸空”，又希望有一份相对稳定的收益，资金费率套利和价差套利是目前最适合普通用户的策略。
+过去做套利需要手动在现货和合约之间来回切，繁琐且容易产生滑点。最近欧易 OKX 上线了「套利下单」工具，把复杂的对冲操作压缩成了“一键双腿下单”，省心且高效。今天就把这套工具的底层逻辑和实操步骤给你讲透。
+欧易永久手续费减免注册链接： https://okx.com/join/1912474 （合理利用减免，能大幅降低套利过程中的手续费磨损）
+
+
+  第一步：搞懂两种套利的核心逻辑
+  #
+
+在实操前，我们需要先理解我们到底在赚谁的钱。
+
+  1. 资金费率套利（赚利息）
+  #
+
+永续合约为了让合约价格不偏离现货价格，引入了“资金费率”机制。简单来说：
+
+做多的人太多（费率为正）： 多头每隔 8 小时要付一笔利息给空头。
+做空的人太多（费率为负）： 空头每隔 8 小时要付一笔利息给多头。
+
+
+套利逻辑： 我们永远站在“收钱”的那一方。比如某币种费率是 0.10618%，我们开 1000 刀的多单，每 8 小时就能白嫖 1000 × 0.19984% = 1.0618 刀。同时，为了防止币价上涨导致空单亏损，我们买入等价值的现货。现货和合约涨跌互抵（风险敞口为零），我们只安心收利息。
+
+  2. 价差套利 / 期限溢价（赚差价）
+  #
+
+打开交割合约（比如次季度交割），你会发现同一个币，交割时间越远，价格往往比现货越高，这就产生了“溢价”。
+
+
+举个生活化的例子： 现在现货苹果 1 元/个，但两个月后的苹果期货标价 1.1 元。
+套利逻辑： 你现在花 1 元买入现货苹果，同时在期货市场以 1.1 元卖出（做空）。等到期时，不管苹果涨跌，这个 0.1 元的价差你吃定了。这就是赚取“溢价随着时间推移必然收敛到零”的确定性利润。
+
+
+
+  第二步：欧易套利下单入口在哪？
+  #
+
+欧易的这个功能目前藏得稍微有点深，按照以下步骤可以快速找到：
+
+打开欧易 OKX App，点击底部或顶部的「策略」。
+在策略页面中找到并点击「套利下单」。
+点击「前往交易」。
+页面切换到策略交易模式后，在下方再次确认选择「套利下单」。
+
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://bnb1234.com/2026061801/">
+  <meta property="og:site_name" content="BTCBA">
+  <meta property="og:title" content="稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利）">
+  <meta property="og:description" content="稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利）#在熊市或者震荡市里，如果你不想冒着爆仓的风险“裸多”或“裸空”，又希望有一份相对稳定的收益，资金费率套利和价差套利是目前最适合普通用户的策略。
+过去做套利需要手动在现货和合约之间来回切，繁琐且容易产生滑点。最近欧易 OKX 上线了「套利下单」工具，把复杂的对冲操作压缩成了“一键双腿下单”，省心且高效。今天就把这套工具的底层逻辑和实操步骤给你讲透。
+欧易永久手续费减免注册链接： https://okx.com/join/1912474 （合理利用减免，能大幅降低套利过程中的手续费磨损）
+第一步：搞懂两种套利的核心逻辑#在实操前，我们需要先理解我们到底在赚谁的钱。
+1. 资金费率套利（赚利息）#永续合约为了让合约价格不偏离现货价格，引入了“资金费率”机制。简单来说：
+做多的人太多（费率为正）： 多头每隔 8 小时要付一笔利息给空头。 做空的人太多（费率为负）： 空头每隔 8 小时要付一笔利息给多头。 套利逻辑： 我们永远站在“收钱”的那一方。比如某币种费率是 0.10618%，我们开 1000 刀的多单，每 8 小时就能白嫖 1000 × 0.19984% = 1.0618 刀。同时，为了防止币价上涨导致空单亏损，我们买入等价值的现货。现货和合约涨跌互抵（风险敞口为零），我们只安心收利息。
+2. 价差套利 / 期限溢价（赚差价）#打开交割合约（比如次季度交割），你会发现同一个币，交割时间越远，价格往往比现货越高，这就产生了“溢价”。
+举个生活化的例子： 现在现货苹果 1 元/个，但两个月后的苹果期货标价 1.1 元。 套利逻辑： 你现在花 1 元买入现货苹果，同时在期货市场以 1.1 元卖出（做空）。等到期时，不管苹果涨跌，这个 0.1 元的价差你吃定了。这就是赚取“溢价随着时间推移必然收敛到零”的确定性利润。 第二步：欧易套利下单入口在哪？#欧易的这个功能目前藏得稍微有点深，按照以下步骤可以快速找到：
+打开欧易 OKX App，点击底部或顶部的「策略」。 在策略页面中找到并点击「套利下单」。 点击「前往交易」。 页面切换到策略交易模式后，在下方再次确认选择「套利下单」。 ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-18T00:00:00+00:00">
+    <meta property="article:tag" content="加密货币投资">
+    <meta property="article:tag" content="币安下载">
+    <meta property="article:tag" content="欧易注册">
+    <meta property="article:tag" content="比特币">
+    <meta property="article:tag" content="Gate交易所">
+    <meta property="article:tag" content="美股">
+<title>稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利） | BTCBA</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://bnb1234.com/2026061801/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.ef5bf857b9091875cf957b39ee3e994caf3bd443e42330ab8a6c98df09ae980c.js" integrity="sha256-71v4V7kJGHXPlXs57j6ZTK871EPkIzCrimyY3wmumAw=" crossorigin="anonymous"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-076TDWEBMQ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-076TDWEBMQ');
+        }
+      </script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>BTCBA</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利）</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#第一步搞懂两种套利的核心逻辑">第一步：搞懂两种套利的核心逻辑</a></li>
+        <li><a href="#第二步欧易套利下单入口在哪">第二步：欧易套利下单入口在哪？</a></li>
+        <li><a href="#第三步实操一--资金费率套利怎么玩">第三步：实操一 —— 资金费率套利怎么玩？</a></li>
+        <li><a href="#第四步实操二--价差套利怎么玩">第四步：实操二 —— 价差套利怎么玩？</a></li>
+        <li><a href="#第五步核心进阶--如何安全把年化放大到-400">第五步：核心进阶 —— 如何安全把年化放大到 400%？</a></li>
+        <li><a href="#常见问题与策略对比">常见问题与策略对比</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="稳中求胜欧易-okx-一键套利下单全攻略资金费率与价差套利">
+  稳中求胜：欧易 OKX 一键套利下单全攻略（资金费率与价差套利）
+  <a class="anchor" href="#%e7%a8%b3%e4%b8%ad%e6%b1%82%e8%83%9c%e6%ac%a7%e6%98%93-okx-%e4%b8%80%e9%94%ae%e5%a5%97%e5%88%a9%e4%b8%8b%e5%8d%95%e5%85%a8%e6%94%bb%e7%95%a5%e8%b5%84%e9%87%91%e8%b4%b9%e7%8e%87%e4%b8%8e%e4%bb%b7%e5%b7%ae%e5%a5%97%e5%88%a9">#</a>
+</h1>
+<p>在熊市或者震荡市里，如果你不想冒着爆仓的风险“裸多”或“裸空”，又希望有一份相对稳定的收益，<strong>资金费率套利</strong>和<strong>价差套利</strong>是目前最适合普通用户的策略。</p>
+<p>过去做套利需要手动在现货和合约之间来回切，繁琐且容易产生滑点。最近欧易 OKX 上线了「套利下单」工具，把复杂的对冲操作压缩成了“一键双腿下单”，省心且高效。今天就把这套工具的底层逻辑和实操步骤给你讲透。</p>
+<p><strong>欧易永久手续费减免注册链接：</strong> <a href="https://okx.com/join/1912474">https://okx.com/join/1912474</a> （合理利用减免，能大幅降低套利过程中的手续费磨损）</p>
+<hr>
+<h3 id="第一步搞懂两种套利的核心逻辑">
+  第一步：搞懂两种套利的核心逻辑
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e6%90%9e%e6%87%82%e4%b8%a4%e7%a7%8d%e5%a5%97%e5%88%a9%e7%9a%84%e6%a0%b8%e5%bf%83%e9%80%bb%e8%be%91">#</a>
+</h3>
+<p>在实操前，我们需要先理解我们到底在赚谁的钱。</p>
+<h4 id="1-资金费率套利赚利息">
+  1. 资金费率套利（赚利息）
+  <a class="anchor" href="#1-%e8%b5%84%e9%87%91%e8%b4%b9%e7%8e%87%e5%a5%97%e5%88%a9%e8%b5%9a%e5%88%a9%e6%81%af">#</a>
+</h4>
+<p>永续合约为了让合约价格不偏离现货价格，引入了“资金费率”机制。简单来说：</p>
+<ul>
+<li><strong>做多的人太多（费率为正）：</strong> 多头每隔 8 小时要付一笔利息给空头。</li>
+<li><strong>做空的人太多（费率为负）：</strong> 空头每隔 8 小时要付一笔利息给多头。</li>
+</ul>
+<p><img src="https://i.mji.rip/2026/06/18/018d71a1552809f1f7aece278ae6a30f.png" alt="图片alt" title="图片title"/></p>
+<p><strong>套利逻辑：</strong> 我们永远站在“收钱”的那一方。比如某币种费率是 0.10618%，我们开 1000 刀的多单，每 8 小时就能白嫖 1000 × 0.19984% = 1.0618 刀。同时，为了防止币价上涨导致空单亏损，我们买入等价值的现货。现货和合约涨跌互抵（风险敞口为零），我们只安心收利息。</p>
+<h4 id="2-价差套利--期限溢价赚差价">
+  2. 价差套利 / 期限溢价（赚差价）
+  <a class="anchor" href="#2-%e4%bb%b7%e5%b7%ae%e5%a5%97%e5%88%a9--%e6%9c%9f%e9%99%90%e6%ba%a2%e4%bb%b7%e8%b5%9a%e5%b7%ae%e4%bb%b7">#</a>
+</h4>
+<p>打开交割合约（比如次季度交割），你会发现同一个币，交割时间越远，价格往往比现货越高，这就产生了“溢价”。</p>
+<p><img src="https://i.mji.rip/2026/06/18/f5f938b8a69a995b078a7d85123bf6ed.png" alt="图片alt" title="图片title"/></p>
+<ul>
+<li><strong>举个生活化的例子：</strong> 现在现货苹果 1 元/个，但两个月后的苹果期货标价 1.1 元。</li>
+<li><strong>套利逻辑：</strong> 你现在花 1 元买入现货苹果，同时在期货市场以 1.1 元卖出（做空）。等到期时，不管苹果涨跌，这个 0.1 元的价差你吃定了。这就是赚取“溢价随着时间推移必然收敛到零”的确定性利润。</li>
+</ul>
+<hr>
+<h3 id="第二步欧易套利下单入口在哪">
+  第二步：欧易套利下单入口在哪？
+  <a class="anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e6%ac%a7%e6%98%93%e5%a5%97%e5%88%a9%e4%b8%8b%e5%8d%95%e5%85%a5%e5%8f%a3%e5%9c%a8%e5%93%aa">#</a>
+</h3>
+<p>欧易的这个功能目前藏得稍微有点深，按照以下步骤可以快速找到：</p>
+<ol>
+<li>打开欧易 OKX App，点击底部或顶部的「策略」。</li>
+<li>在策略页面中找到并点击「套利下单」。</li>
+<li>点击「前往交易」。</li>
+<li>页面切换到策略交易模式后，在下方再次确认选择「套利下单」。</li>
+</ol>
+<p><img src="https://i.mji.rip/2026/06/18/9b15e6d599ae373cbf10b74d8e331403.png" alt="图片alt" title="图片title"/></p>
+<p>进入后，界面顶部会分为<strong>费率套利</strong>和<strong>价差套利</strong>两个标签页，分别对应我们上面讲的两种玩法。</p>
+<hr>
+<h3 id="第三步实操一--资金费率套利怎么玩">
+  第三步：实操一 —— 资金费率套利怎么玩？
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%ae%9e%e6%93%8d%e4%b8%80--%e8%b5%84%e9%87%91%e8%b4%b9%e7%8e%87%e5%a5%97%e5%88%a9%e6%80%8e%e4%b9%88%e7%8e%a9">#</a>
+</h3>
+<h4 id="1-筛选高收益币种">
+  1. 筛选高收益币种
+  <a class="anchor" href="#1-%e7%ad%9b%e9%80%89%e9%ab%98%e6%94%b6%e7%9b%8a%e5%b8%81%e7%a7%8d">#</a>
+</h4>
+<ul>
+<li>进入“费率套利”后，将计价方式切换为 <strong>USDT 本位</strong>（逻辑简单，无需持有特定币种作保证金）。</li>
+<li>点击「参考年化」<strong>列表头，进行</strong>降序排列。排在最前面的就是当下收益最可观的币种。</li>
+</ul>
+<h4 id="2-下单步骤以费率为正为例">
+  2. 下单步骤（以费率为正为例）
+  <a class="anchor" href="#2-%e4%b8%8b%e5%8d%95%e6%ad%a5%e9%aa%a4%e4%bb%a5%e8%b4%b9%e7%8e%87%e4%b8%ba%e6%ad%a3%e4%b8%ba%e4%be%8b">#</a>
+</h4>
+<p>当资金费率为正数时，我们需要：<strong>买入现货 + 永续合约做空</strong>。</p>
+<ol>
+<li>点击目标币种进入下单界面。</li>
+<li>确认方向：现货选择「买入」，永续合约选择「卖出开空」。</li>
+<li>调整杠杆：建议设为 <strong>3 倍 - 5 倍</strong>（不要超过 5 倍，确保风险可控）。</li>
+<li>输入金额：填入你想投入的 USDT 数量（例如 1000 USDT）。</li>
+<li>勾选「同金额」：确保现货和合约用同等资金对冲。</li>
+<li>勾选「任意一腿完成成交，另一腿直接市价吃单」：这能有效减少两笔单子之间的滑点，降低敞口风险。</li>
+<li>价格类型选择「市价」，点击「双腿下单」搞定。</li>
+</ol>
+<blockquote>
+<p><strong>特别注意：反向套利（费率为负的情况）</strong>
+当费率为负，我们需要做多合约收息。正确对冲姿势是：现货杠杆借币卖出（做空现货）+ 永续合约做多。但借币会产生利息，如果资金费率收益盖不住借币利息，这单就不划算，新手建议优先做正费率套利。</p>
+</blockquote>
+<h4 id="3-建仓后需要盯什么">
+  3. 建仓后需要盯什么？
+  <a class="anchor" href="#3-%e5%bb%ba%e4%bb%93%e5%90%8e%e9%9c%80%e8%a6%81%e7%9b%af%e4%bb%80%e4%b9%88">#</a>
+</h4>
+<p>你的风险敞口已经被对冲为零，唯一需要盯的就是<strong>下一期预测费率</strong>。
+每次结算前（每 8 小时一次），看一眼预测费率。如果发现下一期费率由正转负（意味着你要倒贴钱了），立刻市价平掉合约，并卖出手中现货，完成平仓锁润。</p>
+<hr>
+<h3 id="第四步实操二--价差套利怎么玩">
+  第四步：实操二 —— 价差套利怎么玩？
+  <a class="anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%ae%9e%e6%93%8d%e4%ba%8c--%e4%bb%b7%e5%b7%ae%e5%a5%97%e5%88%a9%e6%80%8e%e4%b9%88%e7%8e%a9">#</a>
+</h3>
+<p>价差套利更适合不想天天盯盘的用户。操作前，请先点击「参考年化」降序排列，重点看「价差率」为正（交割价 &gt; 现货价）的币种。</p>
+<p><strong>操作步骤（以 BCH 为例）：</strong></p>
+<ol>
+<li>切换到「价差套利」标签，点击价差率为正的 BCH。</li>
+<li>现货方向选「买入」，交割合约（选当季）方向选「卖出开空」。</li>
+<li>调整杠杆为 5 倍，输入投资金额，选择市价。</li>
+<li>点击「双腿下单」。</li>
+</ol>
+<p><strong>后续管理：</strong> 建仓后基本不需要管，这笔单子不受币价涨跌影响，只需耐心持有到当季合约交割，利润自动落袋。</p>
+<hr>
+<h3 id="第五步核心进阶--如何安全把年化放大到-400">
+  第五步：核心进阶 —— 如何安全把年化放大到 400%？
+  <a class="anchor" href="#%e7%ac%ac%e4%ba%94%e6%ad%a5%e6%a0%b8%e5%bf%83%e8%bf%9b%e9%98%b6--%e5%a6%82%e4%bd%95%e5%ae%89%e5%85%a8%e6%8a%8a%e5%b9%b4%e5%8c%96%e6%94%be%e5%a4%a7%e5%88%b0-400">#</a>
+</h3>
+<p>纯现货套利的年化可能只有 80%，但配合欧易工具加 5 倍杠杆，理论年化就能达到惊人的 400%。但加杠杆有一个<strong>极其重要</strong>的前提：</p>
+<blockquote>
+<p><strong>必须开启「组合保证金模式」！</strong>
+在欧易账户设置中，务必将保证金模式切换为“组合保证金”。在此模式下，系统会把你的现货多头和合约空头合并计算风险。因为两者完全对冲，爆仓概率极低。
+如果不开启，系统会单独计算合约仓位，遇到极端行情，你的空单可能直接被强平！</p>
+</blockquote>
+<hr>
+<h3 id="常见问题与策略对比">
+  常见问题与策略对比
+  <a class="anchor" href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e4%b8%8e%e7%ad%96%e7%95%a5%e5%af%b9%e6%af%94">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">特性对比</th>
+          <th style="text-align: left">资金费率套利</th>
+          <th style="text-align: left">期限价差套利</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>收益潜力</strong></td>
+          <td style="text-align: left">极高（遇到单边行情时费率极其夸张）</td>
+          <td style="text-align: left">中等偏上（收益固定，确定性强）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>管理频率</strong></td>
+          <td style="text-align: left">较高（需每天关注预测费率变动）</td>
+          <td style="text-align: left">极低（建仓后等待交割即可）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>适合人群</strong></td>
+          <td style="text-align: left">愿意定期盯盘，追求资金高利用率的玩家</td>
+          <td style="text-align: left">不想盯盘，追求长线稳健复利的玩家</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Q：资金费率会突然变成负的吗？</strong>
+会的。费率随市场情绪实时变动，可能上个 8 小时还是正的，下个 8 小时就变负了。所以“结算前看一眼预测费率”是必须要养成的习惯。</p>
+<p><strong>Q：单个币种可以全仓投入吗？</strong>
+绝对不行。即使对冲套利风险极低，也不要把所有资金砸在一个山寨币上。遇到极端深度不足或单腿未成交的情况会造成亏损。建议分散投资，并且严格将杠杆控制在 3-5 倍。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#第一步搞懂两种套利的核心逻辑">第一步：搞懂两种套利的核心逻辑</a></li>
+        <li><a href="#第二步欧易套利下单入口在哪">第二步：欧易套利下单入口在哪？</a></li>
+        <li><a href="#第三步实操一--资金费率套利怎么玩">第三步：实操一 —— 资金费率套利怎么玩？</a></li>
+        <li><a href="#第四步实操二--价差套利怎么玩">第四步：实操二 —— 价差套利怎么玩？</a></li>
+        <li><a href="#第五步核心进阶--如何安全把年化放大到-400">第五步：核心进阶 —— 如何安全把年化放大到 400%？</a></li>
+        <li><a href="#常见问题与策略对比">常见问题与策略对比</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
