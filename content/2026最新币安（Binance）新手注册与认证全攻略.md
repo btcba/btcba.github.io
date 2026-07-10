@@ -26,7 +26,7 @@ tags: ["XAUT", "币安下载", "美股", "光美", "币安交易所", "芝麻开
 ## 核心注册步骤
 
 1. **访问注册页面:** 确保使用官方正版链接.
-点击专属邀请链接：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147) 进入币安官方注册页面。
+点击专属邀请链接：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147) 进入币安官方注册页面。
 
 或者打开币安 App，点击“注册”，在推荐人ID（选填）一栏手动输入邀请码：**BTC147**。
 

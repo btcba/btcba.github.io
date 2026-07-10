@@ -19,7 +19,7 @@ tags: ["XAUT", "币安下载", "美股", "币安邀请码", "币安交易所", "
 > **🔑 核心注册信息**
 > * **专属推荐码：** **BTC147**
 > * **返佣比例：** 20%
-> * **快捷注册链接：** [https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
+> * **快捷注册链接：** [https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
 > 
 > 
 
@@ -72,4 +72,4 @@ tags: ["XAUT", "币安下载", "美股", "币安邀请码", "币安交易所", "
 ### 🚀 立即开启您的加密之旅
 
 马上使用推荐码 **BTC147** 注册币安，永久锁定 20% 交易手续费减免：
-👉 [https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
+👉 [https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
