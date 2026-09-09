@@ -33,7 +33,7 @@ tags: ["币安大陆注册", "币安注册", "币安补填邀请码", "币安APP
 * **作用**：成功绑定后可直接享受 **20% 交易手续费返还**（相当于手续费打 8 折）。若搭配平台币 BNB 抵扣，最高可享 40% 折扣且终身有效。
 * *注：若注册时未填写，后续补填极繁琐（通常需要账户连续 180 天不登录冷置后重新激活）。*
 
-注册链接:[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+注册链接:[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 ![图片alt](https://i.mji.rip/2026/07/25/d16590feb22d255ce262eef426e15429.jpeg "图片title")
 

@@ -26,7 +26,7 @@ tags: ["USDT出金", "okx注册", "bStocks", "银行卡冻结", "币安注册", 
 * 如何使用邀请码 **BTC147** 领取 20% 手续费返佣？
 
 > **币安邀请码**：`BTC147`
-> **币安注册链接**：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+> **币安注册链接**：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 > *使用邀请码 **BTC147** 注册，可享 20% 现货及合约交易手续费返佣。*
 
 ---
@@ -66,7 +66,7 @@ bStocks 可以理解为 Binance 生态里的代币化证券产品。它把部分
 
 如果你还没有 Binance 账户，可以先通过专属链接注册：
 
-* **注册链接**：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+* **注册链接**：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 * **邀请码**：`BTC147`
 
 通过该链接注册后，邀请码会自动带入。如果没有自动显示，请手动输入 **BTC147**。
@@ -94,7 +94,7 @@ bStocks 可以理解为 Binance 生态里的代币化证券产品。它把部分
 
 点击专属注册链接进入官网：
 
-* **注册链接**：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+* **注册链接**：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 * **邀请码**：`BTC147`
 
 进入页面后，可以选择邮箱注册，也可以选择手机号码注册。请确认推荐码/邀请码栏位已自动带入 **BTC147**，若无请手动填写。
@@ -193,7 +193,7 @@ bStocks 可以理解为 Binance 生态里的代币化证券产品。它把部分
 使用邀请码 **BTC147** 注册后，可以永久享受现货与合约交易 **20% 的手续费返佣**。
 
 * **邀请码**：`BTC147`
-* **专属注册链接**：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+* **专属注册链接**：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 在注册时通过上述链接直达，邀请码会自动带入，让您的每一笔交易都能节省成本。
 
@@ -211,7 +211,7 @@ A：使用邀请码 **BTC147** 注册 Binance，可享 **20% 现货及合约交�
 
 **Q：注册链接是什么？**
 
-A：专属注册链接为：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)（邀请码：`BTC147`）。
+A：专属注册链接为：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)（邀请码：`BTC147`）。
 
 ---
 
@@ -224,5 +224,5 @@ A：专属注册链接为：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https
 ---
 
 > **立即注册 Binance，领取 20% 手续费返佣**
-> **Binance 注册链接**：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+> **Binance 注册链接**：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 > **邀请码**：`BTC147`

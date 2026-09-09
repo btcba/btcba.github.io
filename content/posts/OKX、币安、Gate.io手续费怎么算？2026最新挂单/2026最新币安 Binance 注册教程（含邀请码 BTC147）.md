@@ -38,7 +38,7 @@ tags: ["币安大陆注册", "币安老用户", "币安补填邀请码", "交易
 
 👉 **币安官方注册链接：**
 
-[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 邀请码：
 
@@ -58,7 +58,7 @@ tags: ["币安大陆注册", "币安老用户", "币安补填邀请码", "交易
 
 打开注册链接：
 
-[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 进入 Binance 注册界面。
 
@@ -229,7 +229,7 @@ KYC审核通过后，账户功能会进一步开放。
 
 打开注册链接：
 
-[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 注册页面会自动绑定邀请码。
 
@@ -303,7 +303,7 @@ BTC147
 
 注册链接：
 
-[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 邀请码：
 
