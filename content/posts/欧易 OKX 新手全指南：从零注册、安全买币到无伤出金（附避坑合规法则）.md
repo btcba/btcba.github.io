@@ -54,7 +54,7 @@ tags: ["ouyi", "okx注册", "台湾Apple ID", "美股代币", "币安注册", "�
 > **💡 注册省钱技巧：**
 > 币圈交易手续费是长期成本。注册时使用专属邀请码可享**20% 手续费永久减免**：
 > * **欧易 OKX**：填写邀请码 `1912474` [点击专属注册链接](https://okx.com/join/1912474)（页面显示“返现比例20%”即为生效）
-> * **币安 Binance**：[点击专属注册链接](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+> * **币安 Binance**：[点击专属注册链接](https://www.binance.com/zh-CN/join?ref=BTC147)
 > * **Gate.io**：[点击专属注册链接](https://www.gate.io/signup/U1UXUV8K?ref_type=103)
 > 
 > 

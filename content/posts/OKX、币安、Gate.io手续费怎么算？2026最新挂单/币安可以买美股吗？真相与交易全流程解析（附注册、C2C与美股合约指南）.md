@@ -46,7 +46,7 @@ tags: ["币安大陆注册", "币安老用户", "币安补填邀请码", "交易
 4. 在「推荐人 ID / 邀请码」一栏填写返佣码 **`BTC147`**（可享受交易手续费减免及新客福利）。
 5. 确认页面显示已成功绑定邀请码，完成注册。
 
-> 💡 **注册入口：** [https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+> 💡 **注册入口：** [https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 ![图片alt](https://i.mji.rip/2026/07/30/2ded652ab2def47f11ae2b8fd8305450.png "图片title")
 

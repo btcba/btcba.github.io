@@ -177,7 +177,7 @@ $$\text{预估爆仓反向波动率} \approx \frac{100\%}{\text{杠杆倍数}}$$
 交易前建议选择主流大厂平台，并通过下方专属链接注册以享受手续费减免优惠：
 
 * **币安 Binance**（全球最大交易平台）
-* 注册链接：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+* 注册链接：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 * 专属邀请码：`BTC147`
 
 
