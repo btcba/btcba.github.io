@@ -24,7 +24,7 @@ tags: ["Binance开户", "币安C2C", "台湾Apple ID", "币安美股", "币安�
 * **避开美国节点**：若使用美国 IP 访问，系统会强制引导至功能阉割严重的美国版（Binance.US）。**请将网络节点切换至台湾、韩国等非美地区。**
 * **手续费减免**：在注册页面手动填写邀请码 **`BTC147`**（或通过专享链接注册），可绑定**终身 20% 交易手续费减免**（现货与合约均有效）。
 
-币安注册：[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+币安注册：[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)
 
 ### 2. 注册四步走
 

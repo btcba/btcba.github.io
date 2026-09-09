@@ -49,7 +49,7 @@ tags: ["XAUT", "币安下载", "美股", "光美", "gate交易所", "芝麻开�
 如果你还没注册过平台账户，或者想要享受手续费抵扣政策，强烈建议千万别直接去官网裸跑注册。**通过内部渠道开通账户，交易手续费直接打折，积少成多能帮你省下一大笔“毕”！**
 
 👉 **【安全通道】点击下方专属通道或复制地址一键直达开户**：
-🔗 **[https://www.bsmkweb.cc/zh-CN/join?ref=BTC147](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)**
+🔗 **[https://www.binance.com/zh-CN/join?ref=BTC147](https://www.binance.com/zh-CN/join?ref=BTC147)**
 
 或者在下载 App 注册页面，手动填写内部福利邀请码：
 🎁 **邀请码：`BTC147**` *(填写后终身享受全网超低交易费率优惠，助你无痛参与 global 资产配置！)*

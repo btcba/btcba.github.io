@@ -106,7 +106,7 @@ tags: ["App Store下载欧易", "iOS加密货币APP", "台湾Apple ID", "欧易�
 
 > **福利提示**：
 > 在注册交易所账号时，填写以下邀请码可享受**永久 20% 交易手续费减免**（现货、合约均有效）：
-> * **币安（Binance）邀请码**：`BTC147` [（官网注册链接）](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+> * **币安（Binance）邀请码**：`BTC147` [（官网注册链接）](https://www.binance.com/zh-CN/join?ref=BTC147)
 > * **欧易（OKX）邀请码**：`1912474` [（官网注册链接）](https://okx.com/join/1912474)
 > 
 > 

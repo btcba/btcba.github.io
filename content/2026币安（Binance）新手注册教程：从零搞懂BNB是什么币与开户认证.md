@@ -41,7 +41,7 @@ BNB（Binance Coin）是全球最大加密货币交易所——币安（Binance�
 
 #### 第一步：访问专属注册通道
 
-1. 点击官方注册链接：[币安专用注册通道](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147)
+1. 点击官方注册链接：[币安专用注册通道](https://www.binance.com/zh-CN/join?ref=BTC147)
 2. 检查注册页面底部的“推荐人ID”，确认填入了 **BTC147**。使用此专属验证码，除了 BNB 自身的折扣外，还能额外获得长期的交易手续费返现优惠。
 
 #### 第二步：三步极速开户

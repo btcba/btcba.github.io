@@ -90,7 +90,7 @@ tags: ["币安注册", "ouyi", "okx注册", "欧易注册", "gate交易所", "us
 
 > **快捷开户与手续费返现通道：**
 
-* **币安（现货减免35%，合约减免25%）**：[点击注册](https://www.bsmkweb.cc/zh-CN/join?ref=BTC147) (邀请码：BTC147)
+* **币安（现货减免35%，合约减免25%）**：[点击注册](https://www.binance.com/zh-CN/join?ref=BTC147) (邀请码：BTC147)
 * **Bitget（自动减免50%）**：[点击注册](https://share.glassgs.com/u/S18JBL76)
 * **欧易 OKX（直接减免20%）**：[点击注册](https://okx.com/join/1912474)
 * **Bybit（手动减免40%）**：[点击注册](https://www.bybitglobal.com/invite?ref=EJG8XX4&medium=referral&utm_campaign=evergreen&shareTo=link)
