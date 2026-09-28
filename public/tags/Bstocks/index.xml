@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BStocks on BTCBA</title>
+    <title>Bstocks on BTCBA</title>
     <link>https://bnb1234.com/tags/Bstocks/</link>
-    <description>Recent content in BStocks on BTCBA</description>
+    <description>Recent content in Bstocks on BTCBA</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 22:23:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bnb1234.com/tags/Bstocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>币安链上美股购买方法：BStocks美股代币交易教程</title>
+      <link>https://bnb1234.com/%E5%B8%81%E5%AE%89%E9%93%BE%E4%B8%8A%E7%BE%8E%E8%82%A1%E8%B4%AD%E4%B9%B0%E6%96%B9%E6%B3%95BStocks%E7%BE%8E%E8%82%A1%E4%BB%A3%E5%B8%81%E4%BA%A4%E6%98%93%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://bnb1234.com/%E5%B8%81%E5%AE%89%E9%93%BE%E4%B8%8A%E7%BE%8E%E8%82%A1%E8%B4%AD%E4%B9%B0%E6%96%B9%E6%B3%95BStocks%E7%BE%8E%E8%82%A1%E4%BB%A3%E5%B8%81%E4%BA%A4%E6%98%93%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;h1 id=&#34;币安链上美股购买方法bstocks美股代币交易教程&#34;&gt;&#xD;&#xA;  币安链上美股购买方法：BStocks美股代币交易教程&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%b8%81%e5%ae%89%e9%93%be%e4%b8%8a%e7%be%8e%e8%82%a1%e8%b4%ad%e4%b9%b0%e6%96%b9%e6%b3%95bstocks%e7%be%8e%e8%82%a1%e4%bb%a3%e5%b8%81%e4%ba%a4%e6%98%93%e6%95%99%e7%a8%8b&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;近年来，股票代币化（Tokenized Stocks）逐渐成为 RWA（Real World Assets，现实世界资产）领域的重要应用。&lt;/p&gt;&#xA;&lt;p&gt;对于想了解链上美股的用户来说，现在可以通过部分加密资产平台接触到与美股或 ETF 价格挂钩的代币化资产。相比传统证券账户，这类产品最大的特点是交易方式和资产结算方式不同，但&lt;strong&gt;并不等同于直接持有美国上市公司的原始股票&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;本文主要介绍目前常见的链上美股产品，以及如何在支持相关产品的平台上进行查询和交易。下面以币安 BStocks 中的英伟达相关产品为例，说明具体操作流程。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;**提示：**代币化股票属于高风险金融产品，具体可交易资产、地区限制、交易时间、费用和最低交易金额可能随平台规则变化。实际操作前应以平台页面显示的信息为准。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;一什么是链上美股&#34;&gt;&#xD;&#xA;  一、什么是链上美股？&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e4%b8%80%e4%bb%80%e4%b9%88%e6%98%af%e9%93%be%e4%b8%8a%e7%be%8e%e8%82%a1&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;所谓“链上美股”，通常是指将股票或 ETF 的经济权益通过区块链代币化后，以数字资产形式提供交易或转移。&lt;/p&gt;&#xA;&lt;p&gt;这类产品通常属于 RWA（Real World Assets）的一部分。&lt;/p&gt;&#xA;&lt;p&gt;简单理解：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;传统股票 → 通过相关机构进行资产托管或权益安排 → 发行对应的链上代币 → 用户通过支持的平台进行交易。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;需要注意的是，&lt;strong&gt;股票代币并不一定等于传统股票本身&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;例如，购买某个与英伟达股票价格挂钩的代币，并不意味着你就成为英伟达的登记股东，也不一定拥有传统股票所对应的投票权、股东大会参与权等权利。&lt;/p&gt;&#xA;&lt;p&gt;因此，在购买之前，需要先查看发行方对于资产支持、托管、赎回、股息以及持有人权益的具体说明。&lt;/p&gt;&#xA;&lt;h1 id=&#34;二目前有哪些链上美股平台&#34;&gt;&#xD;&#xA;  二、目前有哪些链上美股平台？&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e4%ba%8c%e7%9b%ae%e5%89%8d%e6%9c%89%e5%93%aa%e4%ba%9b%e9%93%be%e4%b8%8a%e7%be%8e%e8%82%a1%e5%b9%b3%e5%8f%b0&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;目前市场上可以看到多个与代币化股票相关的项目和平台，例如：&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-binance-bstocks&#34;&gt;&#xD;&#xA;  1. Binance BStocks&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-binance-bstocks&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;BStocks 是币安生态中的股票代币化产品。符合条件的用户可以通过币安支持的交易入口查看相关股票或 ETF 产品。&lt;/p&gt;&#xA;&lt;p&gt;它的特点是直接整合到交易平台中，对于已经使用币安现货交易功能的用户来说，操作路径相对熟悉。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-robinhood-股票代币&#34;&gt;&#xD;&#xA;  2. Robinhood 股票代币&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-robinhood-%e8%82%a1%e7%a5%a8%e4%bb%a3%e5%b8%81&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Robinhood 近年来也推出了与股票代币化相关的产品。&lt;/p&gt;&#xA;&lt;p&gt;由于 Robinhood 本身具有传统证券业务背景，因此它与普通链上 RWA 项目在产品结构和服务模式上存在差异。&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-ondo-finance&#34;&gt;&#xD;&#xA;  3. Ondo Finance&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#3-ondo-finance&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Ondo Finance 是 RWA 领域比较受关注的项目之一，提供多种链上金融产品。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>OKX、币安、Gate.io手续费怎么算？2026最新挂单/吃单与折扣抵扣全攻略</title>
       <link>https://bnb1234.com/posts/OKX%E5%B8%81%E5%AE%89Gate.io%E6%89%8B%E7%BB%AD%E8%B4%B9%E6%80%8E%E4%B9%88%E7%AE%972026%E6%9C%80%E6%96%B0%E6%8C%82%E5%8D%95/%E5%90%83%E5%8D%95%E4%B8%8E%E6%8A%98%E6%89%A3%E6%8A%B5%E6%89%A3%E5%85%A8%E6%94%BB%E7%95%A5/</link>
